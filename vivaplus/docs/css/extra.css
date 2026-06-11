@@ -1,0 +1,38 @@
+img[src*='#left'] { 
+    float: left;
+}
+img[src*='#right'] { 
+    float: right;
+}
+img[src*='#center'] { 
+    display: block; 
+    margin: auto; 
+}
+
+[data-md-color-scheme="viva"] {
+    /* Primary color shades */
+    --md-primary-fg-color:        #ebb000;
+    --md-primary-fg-color--light: #ffc51a;
+    --md-primary-fg-color--dark:  #e6ac00;
+    /* Accent color shades */
+    --md-accent-fg-color:          #82a4e3;
+
+    --md-typeset-a-color:  #b38600;
+
+
+  }
+
+  
+body {
+	margin: 0 auto;	
+	max-width: auto;
+}
+
+/* Create a responsive, centered, three-column grid. */
+.card-container {
+	align-items: start;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(auto-fit, 300px);
+	justify-content: center;
+}

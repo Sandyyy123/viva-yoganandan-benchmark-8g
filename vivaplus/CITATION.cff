@@ -1,0 +1,43 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: VIVA+
+message: Open Source Human Body Models
+type: dataset
+authors:
+  - given-names: Jobin
+    family-names: John
+    email: jobin.john@chalmers.se
+    affiliation: Chalmers University of Technology
+    orcid: 'https://orcid.org/0000-0003-1916-7348'
+  - given-names: Corina
+    family-names: Klug
+    affiliation: Graz University of Technology
+  - given-names: Matej
+    family-names: Kranjec
+    orcid: 'https://orcid.org/0000-0002-3893-0903'
+  - given-names: Johan
+    family-names: Iraeus
+    orcid: 'https://orcid.org/0000-0001-9360-0707'
+    affiliation: Chalmers University of Technology
+identifiers:
+  - type: doi
+    value: 10.3389/fbioe.2022.918904
+    description: Publication - Concept and Development
+  - type: doi
+    value: 10.5281/zenodo.7789362
+    description: Releases on Zenodo
+repository-code: 'https://openvt.eu/fem/viva/vivaplus'
+url: 'https://vivaplus.readthedocs.io/en/latest/'
+abstract: Open Source Finite Element Human Body Models
+keywords:
+  - Human Body Model
+  - Finite Element Model
+  - Vehicle Safety
+  - Injury Biomechanics
+  - Injury Assessment
+  - Sex-Differences
+  - Pedestrians
+  - Vulnerable Road Users
+license: LGPL-3.0

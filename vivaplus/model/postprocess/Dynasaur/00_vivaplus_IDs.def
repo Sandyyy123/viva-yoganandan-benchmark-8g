@@ -1,0 +1,2083 @@
+   {
+   	"OBJECTS": [
+        {
+   			"type": "ENERGY_GLOBAL",
+   			"name": "Model",
+   			"id": [0]
+   		},
+        {
+            "type": "ENERGY_PART",
+            "name": "HBM_vivaplus",
+            "id_range": [100001, 756210]
+        },
+  		{
+   			"type": "NODE",
+   			"name": "HE-Head-CoG-Seatbelt-Accelerometer",
+   			"id": [1090000]
+   		},
+        {
+   			"type": "NODE",
+   			"name": "HE-Head-CoG-Accelerometer-Global",
+   			"id": [1090010]
+   		},
+		{  	"type": "NODE",
+   		   	"name": "HE-OC_L",
+   			"id": [1102596]
+		},
+		{  	"type": "NODE",
+			"name": "HE-OC_R",
+		 	"id": [1104482]
+  		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C1_COG",
+   			"id": [2091010]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C1_post_sup",
+   			"id": [2091011]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C1_bottom",
+   			"id": [2091012]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C2_COG",
+   			"id": [2091020]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C2_bottom",
+   			"id": [2091022]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C2_top",
+   			"id": [2091023]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C2_center",
+   			"id": [2091024]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C1-C2_MP_y_off",
+   			"id": [2091026]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C3_COG",
+   			"id": [2091030]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C3_bottom",
+   			"id": [2091032]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C3_top",
+   			"id": [2091033]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C3_center",
+   			"id": [2091034]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C2_C3_MP_y_off",
+   			"id": [2091036]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C4_COG",
+   			"id": [2091040]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C4_bottom",
+   			"id": [2091042]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C4_top",
+   			"id": [2091043]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C4_center",
+   			"id": [2091044]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C3_C4_MP_y_off",
+   			"id": [2091046]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C5_COG",
+   			"id": [2091050]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C5_bottom",
+   			"id": [2091052]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C5_top",
+   			"id": [2091053]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C5_center",
+   			"id": [2091054]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C4_C5_MP_y_off",
+   			"id": [2091056]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C6_COG",
+   			"id": [2091060]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C6_bottom",
+   			"id": [2091062]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C6_top",
+   			"id": [2091063]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C6_center",
+   			"id": [2091064]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C5_C6_MP_y_off",
+   			"id": [2091066]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C7_COG",
+   			"id": [2091070]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C7_post_sup",
+   			"id": [2091071]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C7_bottom",
+   			"id": [2091072]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C7_top",
+   			"id": [2091073]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C7_center",
+   			"id": [2091074]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C6_C7_MP_y_off",
+   			"id": [2091076]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Clavicle-med-L",
+   			"id": [3091121]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Clavicle-lat-L",
+   			"id": [3091122]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Scapula-PC-AA-MP-L",
+   			"id": [3091200]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Scapula-AI-L",
+   			"id": [3091201]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Scapula-TS-L",
+   			"id": [3091202]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Scapula-AA-L",
+   			"id": [3091203]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Scapula-PC-L",
+   			"id": [3091204]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Humerus-EL-EM-MP-L",
+   			"id": [3091330]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Humerus-EM-L",
+   			"id": [3091331]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Humerus-EL-L",
+   			"id": [3091332]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Ulna-US-L",
+   			"id": [3091430]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Radius-RS-L",
+   			"id": [3091530]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Carpal-RS-US-MP-L",
+   			"id": [3091600]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Clavicle-med-R",
+   			"id": [3591121]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Clavicle-lat-R",
+   			"id": [3591122]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Scapula-PC-AA-MP-R",
+   			"id": [3591200]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Scapula-AI-R",
+   			"id": [3591201]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Scapula-TS-R",
+   			"id": [3591202]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Scapula-AA-R",
+   			"id": [3591203]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Scapula-PC-R",
+   			"id": [3591204]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-GH-Humerus-R",
+   			"id": [3591310]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Humerus-EL-EM-MP-R",
+   			"id": [3591330]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Humerus-EM-R",
+   			"id": [3591331]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Ulna-US-R",
+   			"id": [3591430]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Radius-RS-R",
+   			"id": [3591530]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "UX-Carpal-RS-US-MP-R",
+   			"id": [3591600]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T1_COG",
+   			"id": [4091010]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T1_bottom",
+   			"id": [4091012]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T1_top",
+   			"id": [4091013]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T1_center",
+   			"id": [4091014]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C7_T1_MP_y_off",
+   			"id": [4091016]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T2_COG",
+   			"id": [4091020]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T2_bottom",
+   			"id": [4091022]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T2_top",
+   			"id": [4091023]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T2_center",
+   			"id": [4091024]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T1_T2_MP_y_off",
+   			"id": [4091026]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T3_COG",
+   			"id": [4091030]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T3_bottom",
+   			"id": [4091032]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T3_top",
+   			"id": [4091033]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T3_center",
+   			"id": [4091034]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T2_T3_MP_y_off",
+   			"id": [4091036]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T4_COG",
+   			"id": [4091040]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T4_bottom",
+   			"id": [4091042]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T4_top",
+   			"id": [4091043]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T4_center",
+   			"id": [4091044]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T3_T4_MP_y_off",
+   			"id": [4091046]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T5_COG",
+   			"id": [4091050]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T5_bottom",
+   			"id": [4091052]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T5_top",
+   			"id": [4091053]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T5_center",
+   			"id": [4091054]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T4_T5_MP_y_off",
+   			"id": [4091056]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T6_COG",
+   			"id": [4091060]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T6_bottom",
+   			"id": [4091062]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T6_top",
+   			"id": [4091063]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T6_center",
+   			"id": [4091064]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T5_T6_MP_y_off",
+   			"id": [4091066]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T7_COG",
+   			"id": [4091070]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T7_bottom",
+   			"id": [4091072]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T7_top",
+   			"id": [4091073]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T7_center",
+   			"id": [4091074]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T6_T7_MP_y_off",
+   			"id": [4091076]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T8_COG",
+   			"id": [4091080]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T8_bottom",
+   			"id": [4091082]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T8_top",
+   			"id": [4091083]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T8_center",
+   			"id": [4091084]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T7_T8_MP_y_off",
+   			"id": [4091086]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T9_COG",
+   			"id": [4091090]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T9_bottom",
+   			"id": [4091092]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T9_top",
+   			"id": [4091093]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T9_center",
+   			"id": [4091094]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T8_T9_MP_y_off",
+   			"id": [4091096]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T10_COG",
+   			"id": [4091100]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T10_bottom",
+   			"id": [4091102]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T10_top",
+   			"id": [4091103]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T10_center",
+   			"id": [4091104]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T9_T10_MP_y_off",
+   			"id": [4091106]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T11_COG",
+   			"id": [4091110]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T11_bottom",
+   			"id": [4091112]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T11_top",
+   			"id": [4091113]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T11_center",
+   			"id": [4091114]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T10_T11_MP_y_off",
+   			"id": [4091116]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T12_COG",
+   			"id": [4091120]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T12_bottom",
+   			"id": [4091122]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T12_top",
+   			"id": [4091123]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T12_center",
+   			"id": [4091124]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T11_T12_MP_y_off",
+   			"id": [4091126]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-Sternum_IJ",
+   			"id": [4093501]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-Sternum_PX",
+   			"id": [4093502]
+   		},
+		{
+			"type": "NODE",
+			"name": "TX-Sternum_Mid",
+			"id": [4093503]
+		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L1_bottom",
+   			"id": [5091012]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L1_top",
+   			"id": [5091013]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L1_center",
+   			"id": [5091014]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-T12_L1_MP_y_off",
+   			"id": [5091016]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L2_bottom",
+   			"id": [5091022]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L2_top",
+   			"id": [5091023]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L2_center",
+   			"id": [5091024]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L1_L2_MP_y_off",
+   			"id": [5091026]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L3_bottom",
+   			"id": [5091032]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L3_top",
+   			"id": [5091033]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L3_center",
+   			"id": [5091034]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L2_L3_MP_y_off",
+   			"id": [5091036]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L4_bottom",
+   			"id": [5091042]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L4_top",
+   			"id": [5091043]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L4_center",
+   			"id": [5091044]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L3_L4_MP_y_off",
+   			"id": [5091046]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L5_bottom",
+   			"id": [5091052]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L5_top",
+   			"id": [5091053]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L5_center",
+   			"id": [5091054]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L4_L5_MP_y_off",
+   			"id": [5091056]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "PE-Acetabulum-MP-AC",
+   			"id": [6091000]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "PE-ASIS-L",
+   			"id": [6091001]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "PE-PSIS-L",
+   			"id": [6091002]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "PE-Ischium-inferior-L",
+   			"id": [6091021]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "PE-Acetabulum-ACl-L",
+   			"id": [6091030]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "PE-Cocyx-inferior",
+   			"id": [6091052]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "PE-Sacrum-anterior",
+   			"id": [6091053]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "PE-Sacrum-posterior",
+   			"id": [6091054]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "PE-ASIS-R",
+   			"id": [6591001]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "PE-PSIS-R",
+   			"id": [6591002]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "PE-Ischium-inferior-R",
+   			"id": [6591021]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "PE-Acetabulum-ACl-R",
+   			"id": [6591030]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Femur-head-O-L",
+   			"id": [7091110]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Femur-FEL-FEM-MP-F-L",
+   			"id": [7091190]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Femur-FEM-L",
+   			"id": [7091191]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Femur-FEL-L",
+   			"id": [7091192]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Patella-CoG-L",
+   			"id": [7091300]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Tibia-IC-L",
+   			"id": [7091410]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Tibia-MC-L",
+   			"id": [7091411]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Tibia-LC-L",
+   			"id": [7091412]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-MM-Tibia-Fibula-L",
+   			"id": [7091431]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-LM-Tibia-Fibula-L",
+   			"id": [7091432]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Calcaneus-CoG-L",
+   			"id": [7091700]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Calcaneus-post-L",
+   			"id": [7091703]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-IM-Talus-L",
+   			"id": [7094110]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Femur-head-O-R",
+   			"id": [7591110]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Femur-FEL-FEM-MP-F-R",
+   			"id": [7591190]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Femur-FEM-R",
+   			"id": [7591191]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Femur-FEL-R",
+   			"id": [7591192]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Patella-CoG-R",
+   			"id": [7591300]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Tibia-IC-R",
+   			"id": [7591410]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Tibia-MC-R",
+   			"id": [7591411]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Tibia-LC-R",
+   			"id": [7591412]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-MM-Tibia-Fibula-R",
+   			"id": [7591431]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-LM-Tibia-Fibula-R",
+   			"id": [7591432]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Calcaneus-CoG-R",
+   			"id": [7591700]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-Calcaneus-post-R",
+   			"id": [7591703]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "LX-IM-Talus-R",
+   			"id": [7594110]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C1-C2-MP",
+   			"id": [2091025]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C3-C4-MP",
+   			"id": [2091045]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C5-C6-MP",
+   			"id": [2091065]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "NE-C7-T1-MP",
+   			"id": [4091015]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T2-T3",
+   			"id": [4091035]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T3-T4-MP",
+   			"id": [4091045]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T4-T5-MP",
+   			"id": [4091055]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T5-T6-MP",
+   			"id": [4091065]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T6-T7-MP",
+   			"id": [4091075]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T7-T8-MP",
+   			"id": [4091085]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T8-T9-MP",
+   			"id": [4091095]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "TX-T10-T11-MP",
+   			"id": [4091115]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-T12-L1-MP",
+   			"id": [5091015]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L1-L2-MP",
+   			"id": [5091025]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L2-L3-MP",
+   			"id": [5091035]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L3-L4-MP",
+   			"id": [5091045]
+   		},
+   		{
+   			"type": "NODE",
+   			"name": "AB-L4-L5-MP",
+   			"id": [5091055]
+   		},
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_11",
+            "id": [7124554]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_12",
+            "id": [7191397]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_21",
+            "id": [7103375]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_22",
+            "id": [7203367]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_31",
+            "id": [7188056]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_32",
+            "id": [7172393]
+        },
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_41",
+            "id": [7188055]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_42",
+            "id": [7172392]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_11",
+            "id": [7111907]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_12",
+            "id": [7209056]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_21",
+            "id": [7111903]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_22",
+            "id": [7209057]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_31",
+            "id": [7111899]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_32",
+            "id": [7176172]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_41",
+            "id": [7111999]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_42",
+            "id": [7196236]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aACL-L_1",
+            "id": [7115089]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aACL-L_2",
+            "id": [7196202]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pACL-L_1",
+            "id": [7115089]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pACL-L_2",
+            "id": [7196202]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aPCL-L_1",
+            "id": [7170572]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aPCL-L_2",
+            "id": [7131568]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pPCL-L_1",
+            "id": [7170572]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pPCL-L_2",
+            "id": [7131568]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_11",
+            "id": [7119216]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_12",
+            "id": [7185148]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_21",
+            "id": [7115378]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_22",
+            "id": [7185154]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_31",
+            "id": [7116360]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_32",
+            "id": [7249103]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_41",
+            "id": [7116362]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_42",
+            "id": [7249107]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_11",
+            "id": [7624554]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_12",
+            "id": [7691397]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_21",
+            "id": [7603375]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_22",
+            "id": [7703367]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_31",
+            "id": [7688056]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_32",
+            "id": [7672393]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_41",
+            "id": [7688055]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_42",
+            "id": [7672392]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_11",
+            "id": [7611907]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_12",
+            "id": [7709056]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_21",
+            "id": [7611903]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_22",
+            "id": [7709057]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_31",
+            "id": [7611899]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_32",
+            "id": [7676172]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_41",
+            "id": [7611999]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_42",
+            "id": [7696236]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aACL-R_1",
+            "id": [7615089]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aACL-R_2",
+            "id": [7696202]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pACL-R_1",
+            "id": [7615089]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pACL-R_2",
+            "id": [7696202]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aPCL-R_1",
+            "id": [7670572]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aPCL-R_2",
+            "id": [7631568]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pPCL-R_1",
+            "id": [7670572]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pPCL-R_2",
+            "id": [7631568]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_11",
+            "id": [7619216]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_12",
+            "id": [7685148]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_21",
+            "id": [7615378]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_22",
+            "id": [7685154]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_31",
+            "id": [7616360]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_32",
+            "id": [7749103]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_41",
+            "id": [7616362]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_42",
+            "id": [7749107]
+        },
+
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-Cortical-Proximal-L",
+   			"id": [701111, 701121, 701131, 701141]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-Cortical-Proximal-R",
+   			"id": [751111, 751121, 751131, 751141]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-Cortical-Shaft-L",
+   			"id": [701151, 701161, 701171]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-Cortical-Shaft-R",
+   			"id": [751151, 751161, 751171]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-Cortical-Distal-L",
+   			"id": [701181, 701191, 701201]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-Cortical-Distal-R",
+   			"id": [751181, 751191, 751201]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "PE-Bone-Pelvis-Cortical",
+   			"id": [651051, 651041, 651031, 651021, 651011, 601051, 601041, 601031, 601021, 601011]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-Cortical",
+   			"id": [453124, 453114, 453104, 453094, 453084, 453074, 453064, 453054, 453044, 453034, 453024, 453014, 403124, 403114, 403104, 403094, 403084, 403074, 403064, 403054, 403044, 403034, 403024, 403014]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Fibula-distal-Cortical-R",
+   			"id": [751631]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Fibula-shaft-Cortical-R",
+   			"id": [751621]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Fibula-proximal-Cortical-R",
+   			"id": [751611]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Tibia-distal-Cortical-R",
+   			"id": [751431]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Tibia-shaft-Cortical-R",
+   			"id": [751421]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-distal-lateral-condyle-Cortical-R",
+   			"id": [751201]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-distal-intercondylar-fossa-Cortical-R",
+   			"id": [751191]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-distal-medial-condyle-Cortical-R",
+   			"id": [751181]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-shaft-distal-Cortical-R",
+   			"id": [751171]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-shaft-middle-Cortical-R",
+   			"id": [751161]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-shaft-proximal-Cortical-R",
+   			"id": [751151]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-lesser-trochanter-Cortical-R",
+   			"id": [751141]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-greater-trochanter-Cortical-R",
+   			"id": [751131]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-neck-Cortical-R",
+   			"id": [751121]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-head-Cortical-R",
+   			"id": [751111]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Fibula-distal-Cortical-L",
+   			"id": [701631]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Fibula-shaft-Cortical-L",
+   			"id": [701621]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Fibula-proximal-Cortical-L",
+   			"id": [701611]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Tibia-distal-Cortical-L",
+   			"id": [701431]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Tibia-shaft-Cortical-L",
+   			"id": [701421]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-distal-lateral-condyle-Cortical-L",
+   			"id": [701201]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-distal-intercondylar-fossa-Cortical-L",
+   			"id": [701191]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-distal-medial-condyle-Cortical-L",
+   			"id": [701181]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-shaft-distal-Cortical-L",
+   			"id": [701171]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-shaft-middle-Cortical-L",
+   			"id": [701161]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-shaft-proximal-Cortical-L",
+   			"id": [701151]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-lesser-trochanter-Cortical-L",
+   			"id": [701141]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-greater-trochanter-Cortical-L",
+   			"id": [701131]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-neck-Cortical-L",
+   			"id": [701121]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Femur-head-Cortical-L",
+   			"id": [701111]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "PE-Pelvic-Sacrum-Cortical-R",
+   			"id": [651051]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "PE-Pelvic-Ilium-Cortical-R",
+   			"id": [651041]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "PE-Pelvic-Acetabulum-Cortical-R",
+   			"id": [651031]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "PE-Pelvic-Ischium-Cortical-R",
+   			"id": [651021]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "PE-Pelvic-Pubis-Cortical-R",
+   			"id": [651011]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "PE-Pelvic-Sacrum-Cortical-L",
+   			"id": [601051]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "PE-Pelvic-Ilium-Cortical-L",
+   			"id": [601041]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "PE-Pelvic-Acetabulum-Cortical-L",
+   			"id": [601031]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "PE-Pelvic-Ischium-Cortical-L",
+   			"id": [601021]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "PE-Pelvic-Pubis-Cortical-L",
+   			"id": [601011]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R12-Cortical-R",
+   			"id": [453124]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R11-Cortical-R",
+   			"id": [453114]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R10-Cortical-R",
+   			"id": [453104]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R9-Cortical-R",
+   			"id": [453094]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R8-Cortical-R",
+   			"id": [453084]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R7-Cortical-R",
+   			"id": [453074]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R6-Cortical-R",
+   			"id": [453064]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R5-Cortical-R",
+   			"id": [453054]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R4-Cortical-R",
+   			"id": [453044]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R3-Cortical-R",
+   			"id": [453034]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R2-Cortical-R",
+   			"id": [453024]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R1-Cortical-R",
+   			"id": [453014]
+   		},
+        {
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-Cortical-R",
+   			"id": [453014, 453024, 453034, 453044, 453054, 453064, 453074, 453084, 453094, 453104, 453114, 453124]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-Sternum-Cortical-M",
+   			"id": [403501]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R12-Cortical-L",
+   			"id": [403124]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R11-Cortical-L",
+   			"id": [403114]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R10-Cortical-L",
+   			"id": [403104]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R9-Cortical-L",
+   			"id": [403094]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R8-Cortical-L",
+   			"id": [403084]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R7-Cortical-L",
+   			"id": [403074]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R6-Cortical-L",
+   			"id": [403064]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R5-Cortical-L",
+   			"id": [403054]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R4-Cortical-L",
+   			"id": [403044]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R3-Cortical-L",
+   			"id": [403034]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R2-Cortical-L",
+   			"id": [403024]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-R1-Cortical-L",
+   			"id": [403014]
+   		},
+        {
+   			"type": "OBJECT",
+   			"name": "TX-Ribcage-Cortical-L",
+   			"id": [403014, 403024, 403034, 403044, 403054, 403064, 403074, 403084, 403094, 403104, 403114, 403124]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Radius-distal-Cortical-R",
+   			"id": [351531]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Radius-shaft-Cortical-R",
+   			"id": [351521]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Radius-proximal-Cortical-R",
+   			"id": [351511]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Ulna-distal-Cortical-R",
+   			"id": [351431]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Ulna-shaft-Cortical-R",
+   			"id": [351421]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Ulna-proximal-Cortical-R",
+   			"id": [351411]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Humerus-shaft-Cortical-R",
+   			"id": [351321]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Humerus-proximal-Cortical-R",
+   			"id": [351311]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Humerus-distal-Cortical-R",
+   			"id": [351331]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Radius-distal-Cortical-L",
+   			"id": [301531]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Radius-shaft-Cortical-L",
+   			"id": [301521]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Radius-proximal-Cortical-L",
+   			"id": [301511]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Ulna-distal-Cortical-L",
+   			"id": [301431]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Ulna-shaft-Cortical-L",
+   			"id": [301421]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Ulna-proximal-Cortical-L",
+   			"id": [301411]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Humerus-shaft-Cortical-L",
+   			"id": [301321]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Humerus-proximal-Cortical-L",
+   			"id": [301311]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Humerus-distal-Cortical-L",
+   			"id": [301331]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "NE-Vertebra-C7-Cortical-M",
+   			"id": [201071]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "NE-Vertebra-C6-Cortical-M",
+   			"id": [201061]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "NE-Vertebra-C5-Cortical-M",
+   			"id": [201051]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "NE-Vertebra-C4-Cortical-M",
+   			"id": [201041]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "NE-Vertebra-C3-Cortical-M",
+   			"id": [201031]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "NE-Vertebra-C2-Cortical-M",
+   			"id": [201021]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "NE-Vertebra-C1-Cortical-M",
+   			"id": [201011]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Fibula-Cortical-R",
+   			"id": [751631, 751621, 751611]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Tibia-Cortical-R",
+   			"id": [751431, 751421]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Fibula-Cortical-L",
+   			"id": [701631, 701621, 701611]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "LX-Bone-Tibia-Cortical-L",
+   			"id": [701431, 701421]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Radius-Cortical-R",
+   			"id": [351531, 351521, 351511]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Ulna-Cortical-R",
+   			"id": [351431, 351421, 351411]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Humerus-Cortical-R",
+   			"id": [351321, 351311]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Radius-Cortical-L",
+   			"id": [301531, 301521, 301511]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Ulna-Cortical-L",
+   			"id": [301431, 301421, 301411]
+   		},
+   		{
+   			"type": "OBJECT",
+   			"name": "UX-Bone-Humerus-Cortical-L",
+   			"id": [301321, 301311]
+   		},
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-L",
+             "id": [7274033, 7274034, 7274035, 7274036]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-L_1",
+             "id": [7274033]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-L_2",
+             "id": [7274034]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-L_3",
+             "id": [7274035]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-L_4",
+             "id": [7274036]
+        },        
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-L",
+             "id": [7274037, 7274038, 7274039, 7274040]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-L_1",
+             "id": [7274037]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-L_2",
+             "id": [7274038]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-L_3",
+             "id": [7274039]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-L_4",
+             "id": [7274040]
+        },        
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-aACL-L",
+             "id": [7274041]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-pACL-L",
+             "id": [7274042]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-aPCL-L",
+             "id": [7274043]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-pPCL-L",
+             "id": [7274044]
+        },   
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-L",
+             "id": [7274045, 7274046, 7274047, 7274048]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-L_1",
+             "id": [7274045]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-L_2",
+             "id": [7274046]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-L_3",
+             "id": [7274047]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-L_4",
+             "id": [7274048]
+        },        
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-R",
+             "id": [7287594, 7287595, 7287596, 7287597]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-R_1",
+             "id": [7287594]
+        },  
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-R_2",
+             "id": [7287595]
+        },  
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-R_3",
+             "id": [7287596]
+        },  
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-R_4",
+             "id": [7287597]
+        },          
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-R",
+             "id": [7287598, 7287599, 7287600, 7287601]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-R_1",
+             "id": [7287598]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-R_2",
+             "id": [7287599]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-R_3",
+             "id": [7287600]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-R_4",
+             "id": [7287601]
+        },        
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-aACL-R",
+             "id": [7287602]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-pACL-R",
+             "id": [7287603]
+        },   
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-aPCL-R",
+             "id": [7287604]
+        },   
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-pPCL-R",
+             "id": [7287605]
+        },   
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-R",
+             "id": [7287606, 7287607, 7287608, 7287609]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-R_1",
+             "id": [7287606]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-R_2",
+             "id": [7287607]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-R_3",
+             "id": [7287608]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-R_4",
+             "id": [7287609]
+        }        
+   	]
+   }

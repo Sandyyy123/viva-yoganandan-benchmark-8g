@@ -1,0 +1,2637 @@
+[{
+		"CRITERIA": [
+
+			{
+				"name": "LX-Bone-Femur-distal-intercondylar-fossa-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-distal-intercondylar-fossa-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-distal-intercondylar-fossa-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-distal-intercondylar-fossa-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-distal-intercondylar-fossa-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-distal-intercondylar-fossa-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-distal-intercondylar-fossa-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-distal-intercondylar-fossa-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-distal-lateral-condyle-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-distal-lateral-condyle-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-distal-lateral-condyle-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-distal-lateral-condyle-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-distal-lateral-condyle-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-distal-lateral-condyle-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-distal-lateral-condyle-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-distal-lateral-condyle-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-distal-medial-condyle-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-distal-medial-condyle-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-distal-medial-condyle-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-distal-medial-condyle-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-distal-medial-condyle-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-distal-medial-condyle-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-distal-medial-condyle-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-distal-medial-condyle-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-greater-trochanter-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-greater-trochanter-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-greater-trochanter-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-greater-trochanter-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-greater-trochanter-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-greater-trochanter-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-greater-trochanter-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-greater-trochanter-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-head-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-head-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-head-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-head-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-head-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-head-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-head-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-head-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-lesser-trochanter-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-lesser-trochanter-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-lesser-trochanter-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-lesser-trochanter-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-lesser-trochanter-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-lesser-trochanter-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-lesser-trochanter-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-lesser-trochanter-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-neck-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-neck-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-neck-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-neck-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-neck-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-neck-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-neck-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-neck-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-shaft-distal-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-shaft-distal-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-shaft-distal-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-shaft-distal-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-shaft-distal-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-shaft-distal-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-shaft-distal-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-shaft-distal-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-shaft-middle-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-shaft-middle-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-shaft-middle-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-shaft-middle-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-shaft-middle-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-shaft-middle-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-shaft-middle-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-shaft-middle-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-shaft-proximal-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-shaft-proximal-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-shaft-proximal-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-shaft-proximal-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-shaft-proximal-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-shaft-proximal-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-shaft-proximal-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-shaft-proximal-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-distal-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-distal-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-distal-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-distal-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-distal-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-distal-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-distal-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-distal-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-proximal-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-proximal-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-proximal-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-proximal-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-proximal-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-proximal-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-proximal-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-proximal-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-shaft-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-shaft-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-shaft-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-shaft-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-shaft-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-shaft-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-shaft-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-shaft-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Tibia-distal-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Tibia-distal-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Tibia-distal-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Tibia-distal-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Tibia-distal-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Tibia-distal-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Tibia-distal-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Tibia-distal-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Tibia-shaft-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Tibia-shaft-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Tibia-shaft-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Tibia-shaft-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Tibia-shaft-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Tibia-shaft-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Tibia-shaft-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Tibia-shaft-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Acetabulum-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Acetabulum-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Acetabulum-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Acetabulum-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Acetabulum-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Acetabulum-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Acetabulum-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Acetabulum-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Ilium-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Ilium-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Ilium-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Ilium-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Ilium-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Ilium-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Ilium-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Ilium-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Ischium-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Ischium-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Ischium-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Ischium-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Pubis-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Pubis-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Pubis-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Pubis-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Ischium-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Ischium-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Ischium-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Ischium-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Pubis-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Pubis-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "PE-Pelvic-Pubis-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Pelvic-Pubis-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R1-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R1-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R1-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R1-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R1-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R1-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R1-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R1-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R2-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R2-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R2-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R2-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R2-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R2-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R2-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R2-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R3-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R3-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R3-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R3-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R3-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R3-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R3-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R3-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R4-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R4-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R4-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R4-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R4-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R4-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R4-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R4-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R5-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R5-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R5-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R5-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R5-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R5-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R5-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R5-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R6-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R6-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R6-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R6-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R6-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R6-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R6-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R6-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R7-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R7-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R7-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R7-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R7-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R7-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R7-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R7-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R8-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R8-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R8-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R8-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R8-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R8-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R8-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R8-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R9-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R9-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R9-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R9-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R9-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R9-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R9-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R9-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R10-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R10-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R10-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R10-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R10-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R10-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R10-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R10-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R11-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R11-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R11-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R11-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R11-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R11-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R11-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R11-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R12-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R12-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R12-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R12-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R12-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R12-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "TX-Ribcage-R12-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "TX-Ribcage-R12-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},           
+			{
+				"name": "LX-Bone-Fibula-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Fibula-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Fibula-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Tibia-Cortical-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Tibia-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Tibia-Cortical-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Tibia-Cortical-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Tibia-Cortical-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Tibia-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Tibia-Cortical-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Tibia-Cortical-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-Cortical-Proximal-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-Cortical-Proximal-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-Cortical-Proximal-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-Cortical-Proximal-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-Cortical-Proximal-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-Cortical-Proximal-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-Cortical-Proximal-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-Cortical-Proximal-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-Cortical-Shaft-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-Cortical-Shaft-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-Cortical-Shaft-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-Cortical-Shaft-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-Cortical-Shaft-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-Cortical-Shaft-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-Cortical-Shaft-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-Cortical-Shaft-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-Cortical-Distal-L_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-Cortical-Distal-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-Cortical-Distal-L_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-Cortical-Distal-L",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 1
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-Cortical-Distal-R_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-Cortical-Distal-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "LX-Bone-Femur-Cortical-Distal-R_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "LX-Bone-Femur-Cortical-Distal-R",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 1
+					}
+				}
+			},
+			{
+				"name": "PE-Bone-Pelvis-Cortical_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Bone-Pelvis-Cortical",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "PE-Bone-Pelvis-Cortical_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "PE-Bone-Pelvis-Cortical",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 1
+					}
+				}
+			}
+
+
+		]
+	}
+
+]

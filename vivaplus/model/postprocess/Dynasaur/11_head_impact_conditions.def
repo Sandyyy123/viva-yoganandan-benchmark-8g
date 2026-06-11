@@ -1,0 +1,430 @@
+[{
+		"CRITERIA": [
+
+			{
+				"name": "HEAD-IMPACT-TIME",
+				"type_of_criteria": "time",
+				"part_of": "HEAD",
+				"function": {
+					"name": "hit",
+					"param": {
+						"contact_force": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, x_force)"
+							]
+						},
+						"time": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, time)"
+							]
+						}
+					}
+				}
+			},
+
+			{
+				"name": "HEAD-IMPACT-VELOCITY",
+				"type_of_criteria": "time",
+				"part_of": "HEAD",
+				"function": {
+					"name": "hit_vel_res",
+					"param": {
+						"head_vel_x": {
+							"function": {
+								"name": "abs_sub",
+								"param": {
+									"data_vector_1": {
+										"type": "NODE",
+										"ID": "HE-Head-CoG-Accelerometer-Global",
+										"array": ["(0, x_velocity)"]
+									},
+									"data_vector_2": {
+										"type": "NODE",
+										"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+										"array": ["(0, x_velocity)"]
+									}
+								}
+							}
+						},
+						"head_vel_y": {
+							"function": {
+								"name": "abs_sub",
+								"param": {
+									"data_vector_1": {
+										"type": "NODE",
+										"ID": "HE-Head-CoG-Accelerometer-Global",
+										"array": ["(0, y_velocity)"]
+									},
+									"data_vector_2": {
+										"type": "NODE",
+										"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+										"array": ["(0, y_velocity)"]
+									}
+								}
+							}
+						},
+						"head_vel_z": {
+							"function": {
+								"name": "abs_sub",
+								"param": {
+									"data_vector_1": {
+										"type": "NODE",
+										"ID": "HE-Head-CoG-Accelerometer-Global",
+										"array": ["(0, z_velocity)"]
+									},
+									"data_vector_2": {
+										"type": "NODE",
+										"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+										"array": ["(0, z_velocity)"]
+									}
+								}
+							}
+						},
+						"time_nodout": {
+							"type": "NODE",
+							"ID": "HE-Head-CoG-Accelerometer-Global",
+							"array": [
+								"(0, time)"
+							]
+						},
+						"contact_force": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, x_force)"
+							]
+						},
+						"time_rcf": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, time)"
+							]
+						}
+					}
+				}
+			},
+
+			{
+				"name": "HEAD-IMPACT-ANGLE",
+				"type_of_criteria": "time",
+				"part_of": "HEAD",
+				"function": {
+					"name": "hit_ang",
+					"param": {
+						"head_vel_x": {
+							"function": {
+								"name": "abs_sub",
+								"param": {
+									"data_vector_1": {
+										"type": "NODE",
+										"ID": "HE-Head-CoG-Accelerometer-Global",
+										"array": ["(0, x_velocity)"]
+									},
+									"data_vector_2": {
+										"type": "NODE",
+										"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+										"array": ["(0, x_velocity)"]
+									}
+								}
+							}
+						},
+						"head_vel_y": {
+							"function": {
+								"name": "abs_sub",
+								"param": {
+									"data_vector_1": {
+										"type": "NODE",
+										"ID": "HE-Head-CoG-Accelerometer-Global",
+										"array": ["(0, y_velocity)"]
+									},
+									"data_vector_2": {
+										"type": "NODE",
+										"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+										"array": ["(0, y_velocity)"]
+									}
+								}
+							}
+						},
+						"head_vel_z": {
+							"function": {
+								"name": "abs_sub",
+								"param": {
+									"data_vector_1": {
+										"type": "NODE",
+										"ID": "HE-Head-CoG-Accelerometer-Global",
+										"array": ["(0, z_velocity)"]
+									},
+									"data_vector_2": {
+										"type": "NODE",
+										"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+										"array": ["(0, z_velocity)"]
+									}
+								}
+							}
+						},
+						"time_nodout": {
+							"type": "NODE",
+							"ID": "HE-Head-CoG-Accelerometer-Global",
+							"array": [
+								"(0, time)"
+							]
+						},
+						"contact_force": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, x_force)"
+							]
+						},
+						"time_rcf": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, time)"
+							]
+						}
+					}
+				}
+			},
+
+			{
+				"name": "HEAD-IMPACT-VELOCITY_X",
+				"type_of_criteria": "time",
+				"part_of": "HEAD",
+				"function": {
+					"name": "hit_vel",
+					"param": {
+						"vel": {
+							"type": "NODE",
+							"ID": "HE-Head-CoG-Accelerometer-Global",
+							"array": [
+								"(0, x_velocity)"
+							]
+						},
+						"time_nodout": {
+							"type": "NODE",
+							"ID": "HE-Head-CoG-Accelerometer-Global",
+							"array": [
+								"(0, time)"
+							]
+						},
+						"contact_force": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, x_force)"
+							]
+						},
+						"time_rcf": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, time)"
+							]
+						}
+					}
+				}
+			},
+			{
+				"name": "HEAD-IMPACT-VELOCITY_Y",
+				"type_of_criteria": "time",
+				"part_of": "HEAD",
+				"function": {
+					"name": "hit_vel",
+					"param": {
+						"vel": {
+							"type": "NODE",
+							"ID": "HE-Head-CoG-Accelerometer-Global",
+							"array": [
+								"(0, y_velocity)"
+							]
+						},
+						"time_nodout": {
+							"type": "NODE",
+							"ID": "HE-Head-CoG-Accelerometer-Global",
+							"array": [
+								"(0, time)"
+							]
+						},
+						"contact_force": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, x_force)"
+							]
+						},
+						"time_rcf": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, time)"
+							]
+						}
+					}
+				}
+			},
+			{
+				"name": "HEAD-IMPACT-VELOCITY_Z",
+				"type_of_criteria": "time",
+				"part_of": "HEAD",
+				"function": {
+					"name": "hit_vel",
+					"param": {
+						"vel": {
+							"type": "NODE",
+							"ID": "HE-Head-CoG-Accelerometer-Global",
+							"array": [
+								"(0, z_velocity)"
+							]
+						},
+						"time_nodout": {
+							"type": "NODE",
+							"ID": "HE-Head-CoG-Accelerometer-Global",
+							"array": [
+								"(0, time)"
+							]
+						},
+						"contact_force": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, x_force)"
+							]
+						},
+						"time_rcf": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, time)"
+							]
+						}
+					}
+				}
+			},
+			{
+				"name": "HEAD-IMPACT-TIME-VEHICLE_VELOCITY_X",
+				"type_of_criteria": "time",
+				"part_of": "HEAD",
+				"function": {
+					"name": "hit_vel",
+					"param": {
+						"time_nodout": {
+							"type": "NODE",
+							"ID": "HE-Head-CoG-Accelerometer-Global",
+							"array": [
+								"(0, time)"
+							]
+						},
+						"vel": {
+							"type": "NODE",
+							"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+							"array": [
+								"(0, x_velocity)"
+							]
+						},
+						"contact_force": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, x_force)"
+							]
+						},
+						"time_rcf": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, time)"
+							]
+						}
+					}
+				}
+			},
+
+            {
+				"name": "HEAD-IMPACT-TIME-VEHICLE_VELOCITY_Y",
+				"type_of_criteria": "time",
+				"part_of": "HEAD",
+				"function": {
+					"name": "hit_vel",
+					"param": {
+						"time_nodout": {
+							"type": "NODE",
+							"ID": "HE-Head-CoG-Accelerometer-Global",
+							"array": [
+								"(0, time)"
+							]
+						},
+						"vel": {
+							"type": "NODE",
+							"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+							"array": [
+								"(0, y_velocity)"
+							]
+						},
+						"contact_force": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, x_force)"
+							]
+						},
+						"time_rcf": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, time)"
+							]
+						}
+					}
+				}
+			},
+
+            {
+				"name": "HEAD-IMPACT-TIME-VEHICLE_VELOCITY_Z",
+				"type_of_criteria": "time",
+				"part_of": "HEAD",
+				"function": {
+					"name": "hit_vel",
+					"param": {
+						"time_nodout": {
+							"type": "NODE",
+							"ID": "HE-Head-CoG-Accelerometer-Global",
+							"array": [
+								"(0, time)"
+							]
+						},
+						"vel": {
+							"type": "NODE",
+							"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+							"array": [
+								"(0, z_velocity)"
+							]
+						},
+						"contact_force": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, x_force)"
+							]
+						},
+						"time_rcf": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": [
+								"(0, time)"
+							]
+						}
+					}
+				}
+			}            
+
+			
+
+		]
+	}
+]

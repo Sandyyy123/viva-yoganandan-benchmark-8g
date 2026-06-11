@@ -1,0 +1,2658 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+This is the Piper metadata for the ViVA+ 50F OpenHBM 50th Percentile Female Models
+published under the same license as the ViVA model (GNU LGPL version 3).
+Copyright (C) 2020 Christoph Leo, Corina Klug
+-->
+
+<!DOCTYPE format_description SYSTEM "ModelRules.dtd">
+<model_description>
+    <units length="mm" mass="kg" age="year" />
+    
+    <source>PIPER_run_vivaplus.key</source>
+    
+    <format_rules format="LSDyna_fix"/>
+    
+    <entity name="Auto">
+        <keyword kw="*SET_PART_LIST_TITLE">
+            <id>99200001 99200006 99200011 99200016 99200021 99200026 99200105 99200205 99200305 99200405
+		99200002 99200007 99200012 99200017 99200022 99200101 99200201 99200301 99200401 99200501
+		99200003 99200008 99200013 99200018 99200023 99200102 99200202 99200302 99200402 99200306 
+		99200004 99200009 99200014 99200019 99200024 99200103 99200203 99200303 99200403 99200406 
+		99200005 99200010 99200015 99200020 99200025 99200104 99200204 99200304 99200404	
+		</id>
+        </keyword>
+    </entity>
+    
+    <entity name="Skin_of_left_foot">
+            <keyword kw="*SET_PART_LIST_TITLE">
+                <id>99100002</id>
+            </keyword>
+    </entity>    
+    <entity name="Skin_of_left_leg">
+                <keyword kw="*SET_PART_LIST_TITLE">
+                    <id>99100003</id>
+                </keyword>
+    </entity>    
+    <entity name="Skin_of_left_thigh">
+                    <keyword kw="*SET_PART_LIST_TITLE">
+                        <id>99100004</id>
+                    </keyword>
+    </entity>    
+    <entity name="Skin_of_right_foot">
+                    <keyword kw="*SET_PART_LIST_TITLE">
+                        <id>99100005</id>
+                    </keyword>
+    </entity>    
+    <entity name="Skin_of_right_leg">
+                    <keyword kw="*SET_PART_LIST_TITLE">
+                        <id>99100006</id>
+                    </keyword>
+    </entity>    
+    <entity name="Skin_of_right_thigh">
+                    <keyword kw="*SET_PART_LIST_TITLE">
+                        <id>99100007</id>
+                    </keyword>
+    </entity>    
+    <entity name="Skin_of_trunk">
+                    <keyword kw="*SET_PART_LIST_TITLE">
+                        <id>99100008</id>
+                    </keyword>
+    </entity>    
+    <entity name="Skin_of_neck">
+                    <keyword kw="*SET_PART_LIST_TITLE">
+                        <id>99100009</id>
+                    </keyword>
+    </entity>    
+    <entity name="Skin_of_head">
+                    <keyword kw="*SET_PART_LIST_TITLE">
+                        <id>99100010</id>
+                    </keyword>
+    </entity>    
+    <entity name="Skin_of_left_arm">
+                    <keyword kw="*SET_PART_LIST_TITLE">
+                        <id>99100011</id>
+                    </keyword>
+    </entity>    
+    <entity name="Skin_of_left_forearm">
+                    <keyword kw="*SET_PART_LIST_TITLE">
+                        <id>99100012</id>
+                    </keyword>
+    </entity>    
+    <entity name="Skin_of_left_hand">
+                    <keyword kw="*SET_PART_LIST_TITLE">
+                        <id>99100013</id>
+                    </keyword>
+    </entity>    
+    <entity name="Skin_of_right_arm">
+                    <keyword kw="*SET_PART_LIST_TITLE">
+                        <id>99100014</id>
+                    </keyword>
+    </entity>    
+    <entity name="Skin_of_right_forearm">
+                    <keyword kw="*SET_PART_LIST_TITLE">
+                        <id>99100015</id>
+                    </keyword>
+    </entity>    
+    <entity name="Skin_of_right_hand">
+                    <keyword kw="*SET_PART_LIST_TITLE">
+                        <id>99100016</id>
+                    </keyword>
+    </entity>
+            	
+<!-- Landmark cervical spine -->
+   <landmarks name="Center_lower_plate_of_C1" type="point">
+        <keyword kw="*NODE">
+            <id>2091012</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Tuberosity_of_the_anterior_arch_of_C1" type="point">
+        <keyword kw="*NODE">
+            <id>2112245</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_arch_of_C1" type="point">
+        <keyword kw="*NODE">
+            <id>2113771</id>
+        </keyword>
+    </landmarks>
+     <landmarks name="Lower_articular_facet_of_C1_R" type="point">
+        <keyword kw="*NODE">
+            <id>2113632</id>
+        </keyword>
+    </landmarks>      
+    <landmarks name="Lower_articular_facet_of_C1_L" type="point">
+        <keyword kw="*NODE">
+            <id>2124517</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_C2" type="point">
+        <keyword kw="*NODE">
+            <id>2091023</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_C2" type="point">
+        <keyword kw="*NODE">
+            <id>2091023</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Anterior_point_of_the_inferior_plate_of_C2" type="point">
+        <keyword kw="*NODE">
+            <id>2124169</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_C2" type="point">
+        <keyword kw="*NODE">
+            <id>2113358</id>
+        </keyword>
+    </landmarks>
+     <landmarks name="Left_point_of_the_inferior_plate_of_C2" type="point">
+        <keyword kw="*NODE">
+            <id>2124403</id>
+        </keyword>
+    </landmarks>      
+    <landmarks name="Right_point_of_the_inferior_plate_of_C2" type="point">
+        <keyword kw="*NODE">
+            <id>2113503</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_C3" type="point">
+        <keyword kw="*NODE">
+            <id>2091033</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_C3" type="point">
+        <keyword kw="*NODE">
+            <id>2091032</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Anterior_point_of_the_superior_plate_of_C3" type="point">
+        <keyword kw="*NODE">
+            <id>2122261</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_C3" type="point">
+        <keyword kw="*NODE">
+            <id>2137563</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_C3" type="point">
+        <keyword kw="*NODE">
+            <id>2122253</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_C3" type="point">
+        <keyword kw="*NODE">
+            <id>2137567</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_C3" type="point">
+        <keyword kw="*NODE">
+            <id>2128127</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_C3" type="point">
+        <keyword kw="*NODE">
+            <id>2128164</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_C3" type="point">
+        <keyword kw="*NODE">
+            <id>2122247</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_C3" type="point">
+        <keyword kw="*NODE">
+            <id>2122298</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_C4" type="point">
+        <keyword kw="*NODE">
+            <id>2091043</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_C4" type="point">
+        <keyword kw="*NODE">
+            <id>2091042</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Anterior_point_of_the_superior_plate_of_C4" type="point">
+        <keyword kw="*NODE">
+            <id>2109133</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_C4" type="point">
+        <keyword kw="*NODE">
+            <id>2137555</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_C4" type="point">
+        <keyword kw="*NODE">
+            <id>2109150</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_C4" type="point">
+        <keyword kw="*NODE">
+            <id>2137559</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_C4" type="point">
+        <keyword kw="*NODE">
+            <id>2120488</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_C4" type="point">
+        <keyword kw="*NODE">
+            <id>2120505</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_C4" type="point">
+        <keyword kw="*NODE">
+            <id>2109124</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_C4" type="point">
+        <keyword kw="*NODE">
+            <id>2109144 </id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_C5" type="point">
+        <keyword kw="*NODE">
+            <id>2091053</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_C5" type="point">
+        <keyword kw="*NODE">
+            <id>2091052</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Anterior_point_of_the_superior_plate_of_C5" type="point">
+        <keyword kw="*NODE">
+            <id>2108926</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_C5" type="point">
+        <keyword kw="*NODE">
+            <id>2128288</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_C5" type="point">
+        <keyword kw="*NODE">
+            <id>2108911</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_C5" type="point">
+        <keyword kw="*NODE">
+            <id>2137552</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_C5" type="point">
+        <keyword kw="*NODE">
+            <id>2120293</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_C5" type="point">
+        <keyword kw="*NODE">
+            <id>2120308</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_C5" type="point">
+        <keyword kw="*NODE">
+            <id>2108918</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_C5" type="point">
+        <keyword kw="*NODE">
+            <id>2108940</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_C6" type="point">
+        <keyword kw="*NODE">
+            <id>2091063</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_C6" type="point">
+        <keyword kw="*NODE">
+            <id>2091062</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="Anterior_point_of_the_superior_plate_of_C6" type="point">
+        <keyword kw="*NODE">
+            <id>2114395</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_C6" type="point">
+        <keyword kw="*NODE">
+            <id>2137549</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_C6" type="point">
+        <keyword kw="*NODE">
+            <id>2114409</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_C6" type="point">
+        <keyword kw="*NODE">
+            <id>2137558</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_C6" type="point">
+        <keyword kw="*NODE">
+            <id>2125260</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_C6" type="point">
+        <keyword kw="*NODE">
+            <id>2125271</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_C6" type="point">
+        <keyword kw="*NODE">
+            <id>2114403</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_C6" type="point">
+        <keyword kw="*NODE">
+            <id>2114419</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_C7" type="point">
+        <keyword kw="*NODE">
+            <id>2091073</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_C7" type="point">
+        <keyword kw="*NODE">
+            <id>2091072</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="Anterior_point_of_the_superior_plate_of_C7" type="point">
+        <keyword kw="*NODE">
+            <id>2126824</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_C7" type="point">
+        <keyword kw="*NODE">
+            <id>2137550</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_C7" type="point">
+        <keyword kw="*NODE">
+            <id>2126838</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_C7" type="point">
+        <keyword kw="*NODE">
+            <id>2127865</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_C7" type="point">
+        <keyword kw="*NODE">
+            <id>2127827</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_C7" type="point">
+        <keyword kw="*NODE">
+            <id>2127871</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_C7" type="point">
+        <keyword kw="*NODE">
+            <id>2126816</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_C7" type="point">
+        <keyword kw="*NODE">
+            <id>2126901</id>
+        </keyword>
+    </landmarks>
+    
+	  <!-- Landmark thoracic spine -->
+    <landmarks name="Center_upper_plate_of_T1" type="point">
+        <keyword kw="*NODE">
+            <id>4091013</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_T1" type="point">
+        <keyword kw="*NODE">
+            <id>4091012</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="Anterior_point_of_the_superior_plate_of_T1" type="point">
+        <keyword kw="*NODE">
+            <id>4115307</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_T1" type="point">
+        <keyword kw="*NODE">
+            <id>4272648</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_T1" type="point">
+        <keyword kw="*NODE">
+            <id>4115345</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_T1" type="point">
+        <keyword kw="*NODE">
+            <id>4272653</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="Left_point_of_the_superior_plate_of_T1" type="point">
+        <keyword kw="*NODE">
+            <id>4273157</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_T1" type="point">
+        <keyword kw="*NODE">
+            <id>4272356</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_T1" type="point">
+        <keyword kw="*NODE">
+            <id>4272231</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_T1" type="point">
+        <keyword kw="*NODE">
+            <id>4273283</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_T2" type="point">
+        <keyword kw="*NODE">
+            <id>4091023</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_T2" type="point">
+        <keyword kw="*NODE">
+            <id>4091022</id>
+        </keyword>
+    </landmarks>     
+    <landmarks name="Anterior_point_of_the_superior_plate_of_T2" type="point">
+        <keyword kw="*NODE">
+            <id>4276650</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_T2" type="point">
+        <keyword kw="*NODE">
+            <id>4276436</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_T2" type="point">
+        <keyword kw="*NODE">
+            <id>4276657</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_T2" type="point">
+        <keyword kw="*NODE">
+            <id>4276432</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_T2" type="point">
+        <keyword kw="*NODE">
+            <id>4276738</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_T2" type="point">
+        <keyword kw="*NODE">
+            <id>4276967</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_T2" type="point">
+        <keyword kw="*NODE">
+            <id>4276703</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_T2" type="point">
+        <keyword kw="*NODE">
+            <id>4276440</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_T3" type="point">
+        <keyword kw="*NODE">
+            <id>4091033</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_T3" type="point">
+        <keyword kw="*NODE">
+            <id>4091032</id>
+        </keyword>
+    </landmarks>  
+    <landmarks name="Anterior_point_of_the_superior_plate_of_T3" type="point">
+        <keyword kw="*NODE">
+            <id>4276316</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_T3" type="point">
+        <keyword kw="*NODE">
+            <id>4276296</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_T3" type="point">
+        <keyword kw="*NODE">
+            <id>4276325</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_T3" type="point">
+        <keyword kw="*NODE">
+            <id>4276291</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_T3" type="point">
+        <keyword kw="*NODE">
+            <id>4276119</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_T3" type="point">
+        <keyword kw="*NODE">
+            <id>4276100</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_T3" type="point">
+        <keyword kw="*NODE">
+            <id>4276321</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_T3" type="point">
+        <keyword kw="*NODE">
+            <id>4276301</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_T4" type="point">
+        <keyword kw="*NODE">
+            <id>4091043</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_T4" type="point">
+        <keyword kw="*NODE">
+            <id>4091042</id>
+        </keyword>
+    </landmarks>  
+    <landmarks name="Anterior_point_of_the_superior_plate_of_T4" type="point">
+        <keyword kw="*NODE">
+            <id>4275444</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_T4" type="point">
+        <keyword kw="*NODE">
+            <id>4275470</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_T4" type="point">
+        <keyword kw="*NODE">
+            <id>4275454</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_T4" type="point">
+        <keyword kw="*NODE">
+            <id>4275459</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_T4" type="point">
+        <keyword kw="*NODE">
+            <id>4275770</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_T4" type="point">
+        <keyword kw="*NODE">
+            <id>4275755</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_T4" type="point">
+        <keyword kw="*NODE">
+            <id>4275449</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_T4" type="point">
+        <keyword kw="*NODE">
+            <id>4275464</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_T5" type="point">
+        <keyword kw="*NODE">
+            <id>4091053</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_T5" type="point">
+        <keyword kw="*NODE">
+            <id>4091052</id>
+        </keyword>
+    </landmarks>      
+    <landmarks name="Anterior_point_of_the_superior_plate_of_T5" type="point">
+        <keyword kw="*NODE">
+            <id>4275263</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_T5" type="point">
+        <keyword kw="*NODE">
+            <id>4275243</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_T5" type="point">
+        <keyword kw="*NODE">
+            <id>4275258</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_T5" type="point">
+        <keyword kw="*NODE">
+            <id>4275253</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_T5" type="point">
+        <keyword kw="*NODE">
+            <id>4275269</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_T5" type="point">
+        <keyword kw="*NODE">
+            <id>4275248</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_T5" type="point">
+        <keyword kw="*NODE">
+            <id>4275044</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_T5" type="point">
+        <keyword kw="*NODE">
+            <id>4275023</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_T6" type="point">
+        <keyword kw="*NODE">
+            <id>4091063</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_T6" type="point">
+        <keyword kw="*NODE">
+            <id>4091062</id>
+        </keyword>
+    </landmarks>     
+    <landmarks name="Anterior_point_of_the_superior_plate_of_T6" type="point">
+        <keyword kw="*NODE">
+            <id>4277240</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_T6" type="point">
+        <keyword kw="*NODE">
+            <id>4277245</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_T6" type="point">
+        <keyword kw="*NODE">
+            <id>4277235</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_T6" type="point">
+        <keyword kw="*NODE">
+            <id>4277229</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_T6" type="point">
+        <keyword kw="*NODE">
+            <id>4277108</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_T6" type="point">
+        <keyword kw="*NODE">
+            <id>4277135</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_T6" type="point">
+        <keyword kw="*NODE">
+            <id>4277179</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_T6" type="point">
+        <keyword kw="*NODE">
+            <id>4277152</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_T7" type="point">
+        <keyword kw="*NODE">
+            <id>4091073</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_T7" type="point">
+        <keyword kw="*NODE">
+            <id>4091072</id>
+        </keyword>
+    </landmarks>     
+    <landmarks name="Anterior_point_of_the_superior_plate_of_T7" type="point">
+        <keyword kw="*NODE">
+            <id>4277599</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_T7" type="point">
+        <keyword kw="*NODE">
+            <id>4277594</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_T7" type="point">
+        <keyword kw="*NODE">
+            <id>4277604</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_T7" type="point">
+        <keyword kw="*NODE">
+            <id>4277610</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_T7" type="point">
+        <keyword kw="*NODE">
+            <id>4277421</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_T7" type="point">
+        <keyword kw="*NODE">
+            <id>4277681</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_T7" type="point">
+        <keyword kw="*NODE">
+            <id>4277728</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_T7" type="point">
+        <keyword kw="*NODE">
+            <id>4277988</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_T8" type="point">
+        <keyword kw="*NODE">
+            <id>4091083</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_T8" type="point">
+        <keyword kw="*NODE">
+            <id>4091082</id>
+        </keyword>
+    </landmarks>    
+    <landmarks name="Anterior_point_of_the_superior_plate_of_T8" type="point">
+        <keyword kw="*NODE">
+            <id>4278476</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_T8" type="point">
+        <keyword kw="*NODE">
+            <id>4278495</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_T8" type="point">
+        <keyword kw="*NODE">
+            <id>4278482</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_T8" type="point">
+        <keyword kw="*NODE">
+            <id>4278489</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_T8" type="point">
+        <keyword kw="*NODE">
+            <id>4278418</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_T8" type="point">
+        <keyword kw="*NODE">
+            <id>4278386</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_T8" type="point">
+        <keyword kw="*NODE">
+            <id>4278589</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_T8" type="point">
+        <keyword kw="*NODE">
+            <id>4278559</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_T9" type="point">
+        <keyword kw="*NODE">
+            <id>4091093</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_T9" type="point">
+        <keyword kw="*NODE">
+            <id>4091092</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Anterior_point_of_the_superior_plate_of_T9" type="point">
+        <keyword kw="*NODE">
+            <id>4279115</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_T9" type="point">
+        <keyword kw="*NODE">
+            <id>4279110</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_T9" type="point">
+        <keyword kw="*NODE">
+            <id>4279096</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_T9" type="point">
+        <keyword kw="*NODE">
+            <id>4279101</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_T9" type="point">
+        <keyword kw="*NODE">
+            <id>4279001</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_T9" type="point">
+        <keyword kw="*NODE">
+            <id>4278998</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_T9" type="point">
+        <keyword kw="*NODE">
+            <id>4279253</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_T9" type="point">
+        <keyword kw="*NODE">
+            <id>4279250</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_T10" type="point">
+        <keyword kw="*NODE">
+            <id>4091103</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_T10" type="point">
+        <keyword kw="*NODE">
+            <id>4091102</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Anterior_point_of_the_superior_plate_of_T10" type="point">
+        <keyword kw="*NODE">
+            <id>4279857</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_T10" type="point">
+        <keyword kw="*NODE">
+            <id>4279851</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_T10" type="point">
+        <keyword kw="*NODE">
+            <id>4279864</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_T10" type="point">
+        <keyword kw="*NODE">
+            <id>4279870</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_T10" type="point">
+        <keyword kw="*NODE">
+            <id>4279716</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_T10" type="point">
+        <keyword kw="*NODE">
+            <id>4279700</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_T10" type="point">
+        <keyword kw="*NODE">
+            <id>4279557</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_T10" type="point">
+        <keyword kw="*NODE">
+            <id>4279573</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_T11" type="point">
+        <keyword kw="*NODE">
+            <id>4091113</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_T11" type="point">
+        <keyword kw="*NODE">
+            <id>4091112</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Anterior_point_of_the_superior_plate_of_T11" type="point">
+        <keyword kw="*NODE">
+            <id>4280470</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_T11" type="point">
+        <keyword kw="*NODE">
+            <id>4280447</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_T11" type="point">
+        <keyword kw="*NODE">
+            <id>4280240</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_T11" type="point">
+        <keyword kw="*NODE">
+            <id>4280246</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_T11" type="point">
+        <keyword kw="*NODE">
+            <id>4280464</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_T11" type="point">
+        <keyword kw="*NODE">
+            <id>4280254</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_T11" type="point">
+        <keyword kw="*NODE">
+            <id>4279925</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_T11" type="point">
+        <keyword kw="*NODE">
+            <id>4279934</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_T12" type="point">
+        <keyword kw="*NODE">
+            <id>4091123</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_T12" type="point">
+        <keyword kw="*NODE">
+            <id>4091122</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Anterior_point_of_the_superior_plate_of_T12" type="point">
+        <keyword kw="*NODE">
+            <id>4281429</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_T12" type="point">
+        <keyword kw="*NODE">
+            <id>4281423</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_T12" type="point">
+        <keyword kw="*NODE">
+            <id>4281436</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_T12" type="point">
+        <keyword kw="*NODE">
+            <id>4281442</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_T12" type="point">
+        <keyword kw="*NODE">
+            <id>4281143</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_T12" type="point">
+        <keyword kw="*NODE">
+            <id>4281158</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_T12" type="point">
+        <keyword kw="*NODE">
+            <id>4281046</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_T12" type="point">
+        <keyword kw="*NODE">
+            <id>4281018</id>
+        </keyword>
+    </landmarks>
+    
+    
+    <!-- Landmark lumbar spine -->
+    <landmarks name="Center_upper_plate_of_L1" type="point">
+        <keyword kw="*NODE">
+            <id>5091013</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_L1" type="point">
+        <keyword kw="*NODE">
+            <id>5091012</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Anterior_point_of_the_superior_plate_of_L1" type="point">
+        <keyword kw="*NODE">
+            <id>5108644</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_L1" type="point">
+        <keyword kw="*NODE">
+            <id>5108637</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_L1" type="point">
+        <keyword kw="*NODE">
+            <id>5108624</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_L1" type="point">
+        <keyword kw="*NODE">
+            <id>5108630</id>
+        </keyword>
+    </landmarks>   
+    <landmarks name="Left_point_of_the_superior_plate_of_L1" type="point">
+        <keyword kw="*NODE">
+            <id>5108460</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_L1" type="point">
+        <keyword kw="*NODE">
+            <id>5108435</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_L1" type="point">
+        <keyword kw="*NODE">
+            <id>5108758</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_L1" type="point">
+        <keyword kw="*NODE">
+            <id>5108733</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_L2" type="point">
+        <keyword kw="*NODE">
+            <id>5091023</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_L2" type="point">
+        <keyword kw="*NODE">
+            <id>5091022</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="Anterior_point_of_the_superior_plate_of_L2" type="point">
+        <keyword kw="*NODE">
+            <id>5106906</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_L2" type="point">
+        <keyword kw="*NODE">
+            <id>5106899</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_L2" type="point">
+        <keyword kw="*NODE">
+            <id>5106913</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_L2" type="point">
+        <keyword kw="*NODE">
+            <id>5106920</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="Left_point_of_the_superior_plate_of_L2" type="point">
+        <keyword kw="*NODE">
+            <id>5107347</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_L2" type="point">
+        <keyword kw="*NODE">
+            <id>5107325</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_L2" type="point">
+        <keyword kw="*NODE">
+            <id>5107146</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_L2" type="point">
+        <keyword kw="*NODE">
+            <id>5107168</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_L3" type="point">
+        <keyword kw="*NODE">
+            <id>5091033</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_L3" type="point">
+        <keyword kw="*NODE">
+            <id>5091032</id>
+        </keyword>
+    </landmarks>    
+    <landmarks name="Anterior_point_of_the_superior_plate_of_L3" type="point">
+        <keyword kw="*NODE">
+            <id>5105665</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_L3" type="point">
+        <keyword kw="*NODE">
+            <id>5105658</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_L3" type="point">
+        <keyword kw="*NODE">
+            <id>5105672</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_L3" type="point">
+        <keyword kw="*NODE">
+            <id>5105679</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_L3" type="point">
+        <keyword kw="*NODE">
+            <id>5106092</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_L3" type="point">
+        <keyword kw="*NODE">
+            <id>5106050</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_L3" type="point">
+        <keyword kw="*NODE">
+            <id>5105923</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_L3" type="point">
+        <keyword kw="*NODE">
+            <id>5105965</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_L4" type="point">
+        <keyword kw="*NODE">
+            <id>5091043</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_L4" type="point">
+        <keyword kw="*NODE">
+            <id>5091042</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="Anterior_point_of_the_superior_plate_of_L4" type="point">
+        <keyword kw="*NODE">
+            <id>5105221</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_L4" type="point">
+        <keyword kw="*NODE">
+            <id>5105213</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_L4" type="point">
+        <keyword kw="*NODE">
+            <id>5105228</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_L4" type="point">
+        <keyword kw="*NODE">
+            <id>5105206</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_L4" type="point">
+        <keyword kw="*NODE">
+            <id>5104994</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_L4" type="point">
+        <keyword kw="*NODE">
+            <id>5105019</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_L4" type="point">
+        <keyword kw="*NODE">
+            <id>5105393</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_L4" type="point">
+        <keyword kw="*NODE">
+            <id>5105418</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_upper_plate_of_L5" type="point">
+        <keyword kw="*NODE">
+            <id>5091053</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Center_lower_plate_of_L5" type="point">
+        <keyword kw="*NODE">
+            <id>5091052</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="Anterior_point_of_the_superior_plate_of_L5" type="point">
+        <keyword kw="*NODE">
+            <id>5103690</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_inferior_plate_of_L5" type="point">
+        <keyword kw="*NODE">
+            <id>5103683</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_superior_plate_of_L5" type="point">
+        <keyword kw="*NODE">
+            <id>5103698</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Posterior_point_of_the_inferior_plate_of_L5" type="point">
+        <keyword kw="*NODE">
+            <id>5103676</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Left_point_of_the_superior_plate_of_L5" type="point">
+        <keyword kw="*NODE">
+            <id>5104110</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Left_point_of_the_inferior_plate_of_L5" type="point">
+        <keyword kw="*NODE">
+            <id>5104119</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Right_point_of_the_superior_plate_of_L5" type="point">
+        <keyword kw="*NODE">
+            <id>5103985</id>
+        </keyword>
+    </landmarks>       
+    <landmarks name="Right_point_of_the_inferior_plate_of_L5" type="point">
+        <keyword kw="*NODE">
+            <id>5103976</id>
+        </keyword>
+    </landmarks>
+
+    <!-- Landmark Pelvis -->
+    <landmarks name="Center_Sacral_Plate" type="point">
+        <keyword kw="*NODE">
+            <id>6123770</id>
+        </keyword>
+    </landmarks>  
+     <landmarks name="Anterior_point_of_the_sacral_plate" type="point">
+        <keyword kw="*NODE">
+            <id>6091053</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Posterior_point_of_the_sacral_plate" type="point">
+        <keyword kw="*NODE">
+            <id>6091054</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="Left_acetabular_center" type="point">
+        <keyword kw="*NODE">
+            <id>6091030</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="Right_acetabular_center" type="point">
+        <keyword kw="*NODE">
+            <id>6591030</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="anterior_superior_iliac_spine_L" type="point">
+        <keyword kw="*NODE">
+            <id>6091001</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="anterior_superior_iliac_spine_R" type="point">
+        <keyword kw="*NODE">
+            <id>6591001</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="posterior_superior_iliac_spine_L" type="point">
+        <keyword kw="*NODE">
+            <id>6091002</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="posterior_superior_iliac_spine_R" type="point">
+        <keyword kw="*NODE">
+            <id>6591002</id>
+        </keyword>
+    </landmarks>    
+	
+	 <!-- Landmark Left forearm -->
+    <landmarks name="Styloid_process_of_left_radius" type="point">
+        <keyword kw="*NODE">
+            <id>3091530</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Styloid_process_of_left_ulna" type="point">
+        <keyword kw="*NODE">
+            <id>3091430</id>
+        </keyword>
+    </landmarks>
+
+    <!-- Landmark Right forearm -->
+    <landmarks name="Styloid_process_of_right_radius" type="point">
+        <keyword kw="*NODE">
+            <id>3591530</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Styloid_process_of_right_ulna" type="point">
+        <keyword kw="*NODE">
+            <id>3591430</id>
+        </keyword>
+    </landmarks>
+
+    <!-- Landmark Left Humerus -->
+    <landmarks name="Head_center_of_left_humerus" type="point">
+        <keyword kw="*NODE">
+            <id>3091330</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Lateral_epicondyle_of_left_humerus" type="point">
+        <keyword kw="*NODE">
+            <id>3091332</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Medial_epicondyle_of_left_humerus" type="point">
+        <keyword kw="*NODE">
+            <id>3091331</id>
+        </keyword>
+    </landmarks>
+
+
+    <!-- Landmark Right Humerus -->
+    <landmarks name="Head_center_of_right_humerus" type="point">
+        <keyword kw="*NODE">
+            <id>3591330</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Lateral_epicondyle_of_right_humerus" type="point">
+        <keyword kw="*NODE">
+            <id>3591332</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Medial_epicondyle_of_right_humerus" type="point">
+        <keyword kw="*NODE">
+            <id>3591331</id>
+        </keyword>
+    </landmarks>
+
+    <!-- Landmark Right femur -->
+    <landmarks name="Head_center_of_right_femur" type="point">
+        <keyword kw="*NODE">
+            <id>7091110</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Lateral_epicondyle_of_right_femur" type="point">
+        <keyword kw="*NODE">
+            <id>7091192</id>
+        </keyword>
+    </landmarks>
+        <landmarks name="Medial_epicondyle_of_right_femur" type="point">
+        <keyword kw="*NODE">
+            <id>7091191</id>
+        </keyword>
+    </landmarks>
+    
+    <!-- Landmark Left femur -->
+    <landmarks name="Head_center_of_left_femur" type="point">
+        <keyword kw="*NODE">
+            <id>7591110</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Lateral_epicondyle_of_left_femur" type="point">
+        <keyword kw="*NODE">
+            <id>7591192</id>
+        </keyword>
+    </landmarks>
+        <landmarks name="Medial_epicondyle_of_left_femur" type="point">
+        <keyword kw="*NODE">
+            <id>7591191</id>
+        </keyword>
+    </landmarks>
+    
+    
+    <!-- Landmark Left Tibia -->
+    <landmarks name="Lateral_point_lateral_condyle_of_left_tibia" type="point">
+        <keyword kw="*NODE">
+            <id>7091412</id>
+        </keyword>
+    </landmarks>  
+    <landmarks name="Medial_point_medial_condyle_of_left_tibia" type="point">
+        <keyword kw="*NODE">
+            <id>7091411</id>
+        </keyword>
+    </landmarks>      
+    <landmarks name="Tip_medial_malleolus_of_left_tibia" type="point">
+        <keyword kw="*NODE">
+            <id>7091431</id>
+        </keyword>
+    </landmarks> 
+
+
+    <!-- Landmark Right Tibia -->
+    <landmarks name="Lateral_point_lateral_condyle_of_right_tibia" type="point">
+        <keyword kw="*NODE">
+            <id>7591412</id>
+        </keyword>
+    </landmarks>  
+    <landmarks name="Medial_point_medial_condyle_of_right_tibia" type="point">
+        <keyword kw="*NODE">
+            <id>7591411</id>
+        </keyword>
+    </landmarks>        
+    <landmarks name="Tip_medial_malleolus_of_right_tibia" type="point">
+        <keyword kw="*NODE">
+            <id>7591431</id>
+        </keyword>
+    </landmarks> 
+
+    
+    <!-- Landmark Right Fibula -->
+    <landmarks name="Tip_lateral_malleolus_of_right_fibula" type="point">
+        <keyword kw="*NODE">
+            <id>7591432</id>
+        </keyword>
+    </landmarks> 
+        
+        
+    <!-- Landmark Left Fibula -->
+    <landmarks name="Tip_lateral_malleolus_of_left_fibula" type="point">
+        <keyword kw="*NODE">
+            <id>7091432</id>
+        </keyword>
+    </landmarks>   
+    
+    
+    <!-- Landmark Right skeletal foot -->
+    <landmarks name="Distal_phalanx_of_the_big_toe_of_the_right_foot" type="point">
+        <keyword kw="*NODE">
+            <id>7602262</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Distal_phalanx_of_the_fifth_toe_of_the_right_foot" type="point">
+        <keyword kw="*NODE">
+            <id>7601974</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Neck_of_the_right_talus" type="point">
+        <keyword kw="*NODE">
+            <id>7594110</id>
+        </keyword>
+    </landmarks> 
+    <landmarks name="Center_of_posterior_calcaneal_face_of_right_foot" type="point">
+        <keyword kw="*NODE">
+            <id>7591703</id>
+        </keyword>
+    </landmarks>  
+
+    <!-- Landmark Left skeletal foot -->
+    <landmarks name="Distal_phalanx_of_the_big_toe_of_the_left_foot" type="point">
+        <keyword kw="*NODE">
+            <id>7102262</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Distal_phalanx_of_the_fifth_toe_of_the_left_foot" type="point">
+        <keyword kw="*NODE">
+            <id>7175365</id>
+        </keyword>
+    </landmarks>
+    <landmarks name="Neck_of_the_left_talus" type="point">
+        <keyword kw="*NODE">
+            <id>7101974</id>
+        </keyword>
+    </landmarks>   
+   <landmarks name="Center_of_posterior_calcaneal_face_of_left_foot" type="point">
+        <keyword kw="*NODE">
+            <id>7091703</id>
+        </keyword>
+    </landmarks>
+
+    <joint name="Right_hip"> 
+        <entity_master name="Pelvic_skeleton">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>7591110</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Right_femur">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>7591110</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof>
+    </joint>
+
+    <joint name="Right_knee"> 
+        <entity_master name="Right_femur">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>7591190</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Right_tibia">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>7591190</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Left_hip"> 
+        <entity_master name="Pelvic_skeleton">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>7091110</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Left_femur">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>7091110</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof>
+    </joint>
+
+    <joint name="Left_knee"> 
+        <entity_master name="Left_femur">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>7091190</id>
+                        </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Left_tibia">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>7091190</id>
+                </keyword>
+                    </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+		
+    <joint name="Right_ankle_joint"> 
+        <entity_master name="Right_tibia">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>7594110</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Right_foot_skeleton">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>7594110</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof>
+    </joint>	
+		
+    <joint name="Left_ankle_joint"> 
+        <entity_master name="Left_tibia">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>7094110</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Left_foot_skeleton">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>7094110</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof>
+    </joint>
+	
+    <joint name="Right_sternoclavicular_joint"> 
+        <entity_master name="Right_clavicle">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3591121</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3591121</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+		
+    <joint name="Left_sternoclavicular_joint"> 
+        <entity_master name="Left_clavicle">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3091121</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3091121</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>		
+		
+    <joint name="Right_glenohumeral"> 
+        <entity_master name="Right_scapula">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3591310</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Right_humerus">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3591310</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Left_glenohumeral"> 
+        <entity_master name="Left_scapula">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3091310</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Left_humerus">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3091310</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Right_Humeroulnar"> 
+        <entity_master name="Right_humerus">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3591411</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Right_ulna">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3591411</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof>
+        <setConstrainedDofType value="soft"></setConstrainedDofType>
+    </joint>
+		
+    <joint name="Left_Humeroulnar"> 
+        <entity_master name="Left_humerus">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3091411</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Left_ulna">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3091411</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+        <setConstrainedDofType value="soft"></setConstrainedDofType>
+    </joint>
+				
+    <joint name="Sacrum_L5"> 
+        <entity_master name="Pelvic_skeleton">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>5091055</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Fifth_lumbar_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>5091055</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="L5_L4"> 
+        <entity_master name="Fifth_lumbar_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>5091055</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Fourth_lumbar_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>5091055</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="L4_L3"> 
+        <entity_master name="Fourth_lumbar_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>5091045</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Third_lumbar_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>5091045</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="L3_L2"> 
+        <entity_master name="Third_lumbar_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>5091035</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Second_lumbar_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>5091035</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="L2_L1"> 
+        <entity_master name="Second_lumbar_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>5091025</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="First_lumbar_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>5091025</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="L1_T12"> 
+        <entity_master name="First_lumbar_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>5091015</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Twelfth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>5091015</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="T12_T11"> 
+        <entity_master name="Twelfth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091125</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Eleventh_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091125</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="T11_T10"> 
+        <entity_master name="Eleventh_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091115</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Tenth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091115</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="T10_T9"> 
+        <entity_master name="Tenth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091105</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Ninth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091105</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="T9_T8"> 
+        <entity_master name="Ninth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091095</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Eighth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091095</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="T8_T7"> 
+        <entity_master name="Eighth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091085</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Seventh_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091085</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="T7_T6"> 
+        <entity_master name="Seventh_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091075</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Sixth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091075</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="T6_T5"> 
+        <entity_master name="Sixth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091065</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Fifth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091065</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+
+    <joint name="T5_T4"> 
+        <entity_master name="Fifth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091055</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Fourth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091055</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="T4_T3"> 
+        <entity_master name="Fourth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091045</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Third_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091045</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="T3_T2"> 
+        <entity_master name="Third_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091035</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Second_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091035</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="T2_T1"> 
+        <entity_master name="Second_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091025</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="First_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>4091025</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="T1_C7"> 
+        <entity_master name="First_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>8381789</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Seventh_cervical_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>8381789</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="C7_C6">
+        <entity_master name="Seventh_cervical_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>8381679</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Sixth_cervical_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>8381679</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="C6_C5"> 
+        <entity_master name="Sixth_cervical_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>8381569</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Fifth_cervical_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>8381569</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="C5_C4"> 
+        <entity_master name="Fifth_cervical_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>8381459</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Fourth_cervical_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>8381459</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="C4_C3"> 
+        <entity_master name="Fourth_cervical_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>8381349</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Third_cervical_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>8381349</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="C3_C2"> 
+        <entity_master name="Third_cervical_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>8381239</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Axis">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>8381239</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="C2_C1"> 
+        <entity_master name="Axis">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>8381129</id>
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Atlas">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>8381129</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>		
+			
+    <joint name="Left_radioulnar_distal"> 
+        <entity_master name="Left_radius">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3091600</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Left_ulna">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3091600</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Right_radioulnar_distal"> 
+        <entity_master name="Right_radius">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3591600</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Right_ulna">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3591600</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Left_twelfth_costovertebral"> 
+        <entity_master name="Twelfth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400512</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400512</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Right_twelfth_costovertebral"> 
+        <entity_master name="Twelfth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450512</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450512</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Left_eleventh_costovertebral"> 
+        <entity_master name="Eleventh_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400511</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400511</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Right_eleventh_costovertebral"> 
+        <entity_master name="Eleventh_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450511</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450511</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Left_tenth_costovertebral"> 
+        <entity_master name="Tenth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400510</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400510</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Right_tenth_costovertebral"> 
+        <entity_master name="Eleventh_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450510</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450510</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Left_ninth_costovertebral"> 
+        <entity_master name="Ninth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400509</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400509</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Right_ninth_costovertebral"> 
+        <entity_master name="Ninth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450509</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450509</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Left_eighth_costovertebral"> 
+        <entity_master name="Eighth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400508</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400508</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Right_eighth_costovertebral"> 
+        <entity_master name="Eighth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450508</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450508</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Left_seventh_costovertebral"> 
+        <entity_master name="Seventh_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400507</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400507</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Right_seventh_costovertebral"> 
+        <entity_master name="Seventh_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450507</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450507</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Left_sixth_costovertebral"> 
+        <entity_master name="Sixth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400506</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400506</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Right_sixth_costovertebral"> 
+        <entity_master name="Sixth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450506</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450506</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Left_fifth_costovertebral"> 
+        <entity_master name="Fifth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400505</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400505</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Right_fifth_costovertebral"> 
+        <entity_master name="Fifth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450505</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450505</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Left_fourth_costovertebral"> 
+        <entity_master name="Fourth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400504</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400504</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Right_fourth_costovertebral"> 
+        <entity_master name="Fourth_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450504</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450504</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Left_third_costovertebral"> 
+        <entity_master name="Third_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400503</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400503</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Right_third_costovertebral"> 
+        <entity_master name="Third_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450503</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450503</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Left_second_costovertebral"> 
+        <entity_master name="Second_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400502</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400502</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Right_second_costovertebral"> 
+        <entity_master name="Second_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450502</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450502</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Left_first_costovertebral"> 
+        <entity_master name="First_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400501</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>400501</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Right_first_costovertebral"> 
+        <entity_master name="First_thoracic_vertebra">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450501</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Skeleton_of_rib_cage">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>450501</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+
+    <joint name="Right_acromioclavicular"> 
+        <entity_master name="Right_scapula">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3591120</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Right_clavicle">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3591120</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>
+			
+    <joint name="Left_acromioclavicular"> 
+        <entity_master name="Right_scapula">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3091120</id>	
+                </keyword>
+            </setFrame>
+        </entity_master>
+        <entity_slave name="Left_clavicle">
+            <setFrame>
+                <keyword kw="*DEFINE_COORDINATE_NODES_TITLE">
+                    <id>3091120</id>
+                </keyword>
+            </setFrame>
+        </entity_slave>
+        <setDof>0 0 0 1 1 1</setDof> 
+    </joint>    
+
+
+</model_description>

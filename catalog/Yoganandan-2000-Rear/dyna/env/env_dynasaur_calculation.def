@@ -1,0 +1,66 @@
+[
+    {
+        "DATA VISUALIZATION": [
+            {
+                "name": "Seat_x",
+                "part_of": "Env",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "Seat",
+                    "array": [
+                        "(0, time)"
+                    ]
+                },
+                "y": {
+                    "label": "displacement",
+                    "type": "NODE",
+                    "ID": "Seat",
+                    "array": [
+                        "(0, x_coordinate)"
+                    ]
+                }
+            },
+            {
+                "name": "Seat_y",
+                "part_of": "Env",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "Seat",
+                    "array": [
+                        "(0, time)"
+                    ]
+                },
+                "y": {
+                    "label": "displacement",
+                    "type": "NODE",
+                    "ID": "Seat",
+                    "array": [
+                        "(0, y_coordinate)"
+                    ]
+                }
+            },
+            {
+                "name": "Seat_z",
+                "part_of": "Env",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "Seat",
+                    "array": [
+                        "(0, time)"
+                    ]
+                },
+                "y": {
+                    "label": "displacement",
+                    "type": "NODE",
+                    "ID": "Seat",
+                    "array": [
+                        "(0, z_coordinate)"
+                    ]
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,1379 @@
+ .. READING LS-DYNA INPUT FORMAT MODEL
+************************************************************************
+**                                                                    **
+**                                                                    **
+**                        OpenRadioss Starter                         **
+**                                                                    **
+**            Non-linear Finite Element Analysis Software             **
+**                                                                    **
+**                                                                    **
+**                                                                    **
+**                    Linux 64 bits, GNU compiler                     **
+**                      Double Precision Version                      **
+**                                                                    **
+**                                                                    **
+**                                                                    **
+************************************************************************
+** OpenRadioss Software                                               **
+** COPYRIGHT (C) 1986-2026 Altair Engineering, Inc.                   **
+** Licensed under GNU Affero General Public License.                  **
+** See License file.                                                  **
+************************************************************************
+ 
+
+WARNING ID : 100217
+** WARNING IN INPUT OPTIONS
+DESCRIPTION :  
+-- BLOCK: *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
+-- LINE: *MAT_ORTHOTROPIC_ELASTIC_TITLE
+card is missing
+SOLUTION :     
+Please check input format and fields description defined in the Reference Guide.
+
+WARNING ID : 200022
+** WARNING IN LS-DYNA IMPORT
+DESCRIPTION :  
+*INCLUDE_TRANSFORM (name: seat.key): Field FCTTEM not supported
+
+WARNING ID : 200022
+** WARNING IN LS-DYNA IMPORT
+DESCRIPTION :  
+*INCLUDE_TRANSFORM (name: seat_belt.key): Field FCTTEM not supported
+
+WARNING ID : 200022
+** WARNING IN LS-DYNA IMPORT
+DESCRIPTION :  
+*INCLUDE_TRANSFORM (name: vivaplus-50F.key): Field FCTTEM not supported
+
+WARNING ID : 200038
+** WARNING IN LS-DYNA IMPORT
+DESCRIPTION :  
+*DATABASE_HISTORY_SHELL_SET : SET id: 9040100,  with "_ADD" option is not supported. Use SET without "_ADD" option.
+
+WARNING ID : 200038
+** WARNING IN LS-DYNA IMPORT
+DESCRIPTION :  
+*DATABASE_HISTORY_SOLID_SET : SET id: 9070009,  with "_ADD" option is not supported. Use SET without "_ADD" option.
+
+ .. UNITS SYSTEM                                                                         
+ .. CONTROL VARIABLES                                                                    
+ .. STARTER RUNNING ON    1 THREAD
+ .. FUNCTIONS & TABLES
+ .. MATERIALS                                                                            
+ .. NODES                                                                                
+ .. SUBMODELS
+ .. SKEW SYSTEMS                                                                         
+ .. PROPERTIES                                                                           
+ .. 3D SOLID ELEMENTS                                                                    
+ .. 3D SHELL ELEMENTS                                                                    
+ .. 3D BEAM ELEMENTS                                                                     
+ .. 3D SPRING ELEMENTS                                                                   
+ .. 3D TRIANGULAR SHELL ELEMENTS                                                         
+ .. SUBSETS
+ .. ELEMENT GROUPS
+ .. PART GROUPS
+ .. SET
+ .. SLIPRING/RETRACTOR
+ .. IMPOSED VELOCITIES                                                                   
+ .. SENSORS
+
+WARNING ID :   1914
+** WARNING IN MATERIAL LAW
+
+WARNING ID :   1915
+** WARNING IN MATERIAL LAW
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 101101
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 101101
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716010
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716010
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716012
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716012
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716013
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716013
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716015
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716015
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716018
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716018
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716021
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716021
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716022
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716022
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716025
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716025
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716026
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716026
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716028
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716028
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716030
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716030
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716033
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716033
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716047
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716047
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716049
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716049
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716050
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716050
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716052
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716052
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716055
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716055
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716057
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716057
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716058
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716058
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716060
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716060
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716061
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716061
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716063
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716063
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716065
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   2064
+** WARNING IN MATERIAL LAW
+DESCRIPTION :  
+   -- MATERIAL ID: 716065
+   -- MATERIAL TITLE: HE-Cortical-Wood-1971-Fig-8
+   mapped from:
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE ID: 101101 
+     *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE Title: HE-Cortical-Wood-1971-Fig-8 "
+   YIELD STRESS CURVES FOR DIFFERENT STRAIN RATES SHOULD NOT INTERSECT
+   CURVES 101112 and 101113 ARE INTERSECTING
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101112 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: SR2.4[1/s]=0.0024[1/ms] "
+   mapped from:
+     *DEFINE_CURVE_TITLE ID: 101113 
+     *DEFINE_CURVE_TITLE Title: Eff. true stress vs true pl.strain: 95->0.095 strain/ms "
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :    865
+** WARNING ON MATERIAL LAW
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+
+WARNING ID :   1640
+** WARNING IN SPRING MATERIAL SET
+ .. SEATBELT INITIALIZATION
+ .. DOMAIN DECOMPOSITION
+ .. ELEMENT GROUPS                                                                       
+ .. INTERFACES                                                                           
+ .. INTERFACE BUFFER INITIALIZATION                                                      
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   3025
+** WARNING: NODE NUMBERING OF MAIN SEGMENTS OF INTERFACE
+
+WARNING ID :   3025
+** WARNING: NODE NUMBERING OF MAIN SEGMENTS OF INTERFACE
+
+WARNING ID :   3025
+** WARNING: NODE NUMBERING OF MAIN SEGMENTS OF INTERFACE
+
+WARNING ID :   3025
+** WARNING: NODE NUMBERING OF MAIN SEGMENTS OF INTERFACE
+
+WARNING ID :   3025
+** WARNING: NODE NUMBERING OF MAIN SEGMENTS OF INTERFACE
+
+WARNING ID :   3025
+** WARNING: NODE NUMBERING OF MAIN SEGMENTS OF INTERFACE
+
+WARNING ID :   3025
+** WARNING: NODE NUMBERING OF MAIN SEGMENTS OF INTERFACE
+ .. ADDED MASSES                                                                         
+ .. RIGID BODIES                                                                         
+ .. RETURNS TO DOMAIN DECOMPOSITION FOR OPTIMIZATION
+ .. SEATBELT INITIALIZATION
+ .. DOMAIN DECOMPOSITION
+ .. ELEMENT GROUPS                                                                       
+ .. INTERFACES                                                                           
+ .. INTERFACE BUFFER INITIALIZATION                                                      
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   1079
+** WARNING: CHECK TIED INTERFACE
+
+WARNING ID :   3025
+** WARNING: NODE NUMBERING OF MAIN SEGMENTS OF INTERFACE
+
+WARNING ID :   1167
+** INITIAL PENETRATIONS IN INTERFACE TYPE25
+
+WARNING ID :    343
+** WARNING: INITIAL PENETRATIONS IN INTERFACE
+
+WARNING ID :   3025
+** WARNING: NODE NUMBERING OF MAIN SEGMENTS OF INTERFACE
+
+WARNING ID :   1167
+** INITIAL PENETRATIONS IN INTERFACE TYPE25
+
+WARNING ID :    343
+** WARNING: INITIAL PENETRATIONS IN INTERFACE
+
+WARNING ID :   1167
+** INITIAL PENETRATIONS IN INTERFACE TYPE25
+
+WARNING ID :   1633
+** INITIAL EDGE TO EDGE PENETRATIONS IN INTERFACE TYPE25
+
+WARNING ID :    343
+** WARNING: INITIAL PENETRATIONS IN INTERFACE
+
+WARNING ID :   1167
+** INITIAL PENETRATIONS IN INTERFACE TYPE25
+
+WARNING ID :    343
+** WARNING: INITIAL PENETRATIONS IN INTERFACE
+
+WARNING ID :   3025
+** WARNING: NODE NUMBERING OF MAIN SEGMENTS OF INTERFACE
+
+WARNING ID :   1167
+** INITIAL PENETRATIONS IN INTERFACE TYPE25
+
+WARNING ID :    343
+** WARNING: INITIAL PENETRATIONS IN INTERFACE
+
+WARNING ID :   3025
+** WARNING: NODE NUMBERING OF MAIN SEGMENTS OF INTERFACE
+
+WARNING ID :   1167
+** INITIAL PENETRATIONS IN INTERFACE TYPE25
+
+WARNING ID :   3025
+** WARNING: NODE NUMBERING OF MAIN SEGMENTS OF INTERFACE
+
+WARNING ID :   1167
+** INITIAL PENETRATIONS IN INTERFACE TYPE25
+
+WARNING ID :   1633
+** INITIAL EDGE TO EDGE PENETRATIONS IN INTERFACE TYPE25
+
+WARNING ID :    343
+** WARNING: INITIAL PENETRATIONS IN INTERFACE
+
+WARNING ID :   3025
+** WARNING: NODE NUMBERING OF MAIN SEGMENTS OF INTERFACE
+
+WARNING ID :   1167
+** INITIAL PENETRATIONS IN INTERFACE TYPE25
+
+WARNING ID :    343
+** WARNING: INITIAL PENETRATIONS IN INTERFACE
+
+WARNING ID :   3025
+** WARNING: NODE NUMBERING OF MAIN SEGMENTS OF INTERFACE
+
+WARNING ID :   1167
+** INITIAL PENETRATIONS IN INTERFACE TYPE25
+
+WARNING ID :    343
+** WARNING: INITIAL PENETRATIONS IN INTERFACE
+ .. ADDED MASSES                                                                         
+ .. RIGID BODIES                                                                         
+ .. ELEMENT BUFFER INITIALIZATION                                                        
+
+WARNING ID :   1179
+** WARNING: SWITCH TO PENALTY IN TIED INTERFACE
+
+WARNING ID :   2067
+** WARNING CONTACT NODE EDGES ARE ALSO SECONDARY NODES IN A TYPE2 TIED INTERFACE
+
+WARNING ID :   2067
+** WARNING CONTACT NODE EDGES ARE ALSO SECONDARY NODES IN A TYPE2 TIED INTERFACE
+
+WARNING ID :   2067
+** WARNING CONTACT NODE EDGES ARE ALSO SECONDARY NODES IN A TYPE2 TIED INTERFACE
+
+WARNING ID :   2067
+** WARNING CONTACT NODE EDGES ARE ALSO SECONDARY NODES IN A TYPE2 TIED INTERFACE
+
+WARNING ID :   1053
+** WARNING CONTACT SECONDARY NODES ARE ALSO SECONDARY NODES IN A TYPE2 TIED INTERFACE
+ .. GEOMETRY PLOT FILE                                                                   
+ .. /CHECK/RFILE/OFF : NO PARALLEL RESTART FILES GENERATION
+  
+------------------------------------------------------------------------
+  
+                   ** COMPUTE TIME INFORMATION **
+  
+ EXECUTION STARTED      :      2026/06/11  19:59:38
+ EXECUTION COMPLETED    :      2026/06/11  20:01:10
+  
+ ELAPSED TIME...........=         92.43 s
+                               00:01:32
+  
+------------------------------------------------------------------------
+
+
+
+     TERMINATION WITH WARNING           
+     ------------------                                                                  
+              0 ERROR(S)            
+            205 WARNING(S)          
+
+
+
+
+PLEASE CHECK LISTING FILE FOR FURTHER DETAILS
+
+

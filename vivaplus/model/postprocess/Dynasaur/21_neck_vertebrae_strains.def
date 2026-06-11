@@ -1,0 +1,259 @@
+[{
+		"CRITERIA": [
+
+			{
+				"name": "NE-Vertebra-C1-Cortical-M_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "NE-Vertebra-C1-Cortical-M",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "NE-Vertebra-C1-Cortical-M_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "NE-Vertebra-C1-Cortical-M",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "NE-Vertebra-C2-Cortical-M_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "NE-Vertebra-C2-Cortical-M",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "NE-Vertebra-C2-Cortical-M_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "NE-Vertebra-C2-Cortical-M",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},			
+			{
+				"name": "NE-Vertebra-C3-Cortical-M_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "NE-Vertebra-C3-Cortical-M",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "NE-Vertebra-C3-Cortical-M_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "NE-Vertebra-C3-Cortical-M",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+			{
+				"name": "NE-Vertebra-C4-Cortical-M_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "NE-Vertebra-C4-Cortical-M",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "NE-Vertebra-C4-Cortical-M_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "NE-Vertebra-C4-Cortical-M",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+						{
+				"name": "NE-Vertebra-C5-Cortical-M_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "NE-Vertebra-C5-Cortical-M",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "NE-Vertebra-C5-Cortical-M_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "NE-Vertebra-C5-Cortical-M",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+						{
+				"name": "NE-Vertebra-C6-Cortical-M_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "NE-Vertebra-C6-Cortical-M",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "NE-Vertebra-C6-Cortical-M_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "NE-Vertebra-C6-Cortical-M",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			},
+						{
+				"name": "NE-Vertebra-C7-Cortical-M_99PS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "percentile",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "NE-Vertebra-C7-Cortical-M",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"percentile": 0.99
+					}
+				}
+			},
+			{
+				"name": "NE-Vertebra-C7-Cortical-M_MPS",
+				"type_of_criteria": "injury",
+				"part_of": "BONES",
+				"function": {
+					"name": "stress_strain_part_max",
+					"param": {
+						"object_data": {
+							"type": "OBJECT",
+							"ID": "NE-Vertebra-C7-Cortical-M",
+							"strain_stress": "Strain"
+						},
+						"integration_point": "Mean",
+						"selection_tension_compression": "Overall",
+						"nr_largest_elements": 1
+					}
+				}
+			}
+		]
+	}
+
+]

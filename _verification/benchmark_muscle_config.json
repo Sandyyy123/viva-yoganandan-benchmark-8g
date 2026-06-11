@@ -1,0 +1,7 @@
+{
+  "run_id": "benchmark_SCM_Trap_50pct_0ms_8g_300ms",
+  "activated_groups": ["SCM", "Trap"],
+  "t_start": 0.0,
+  "magnitude_pct": 50.0,
+  "baseline_tone_pct": 2.0
+}

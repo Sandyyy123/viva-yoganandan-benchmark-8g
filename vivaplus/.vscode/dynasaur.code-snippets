@@ -1,0 +1,184 @@
+{
+    "CFC": {
+        "scope": "",
+        "prefix": "CFC",
+        "body": 
+			[
+				"{",
+					"\"function\": {",
+						"\"name\": \"cfc\",",
+						"\"param\": {",
+							"\"cfc\": 1000,",
+							    "\"time\": {",
+                                "\"type\": \"NODE\",",
+                                "\"ID\": \"Head\",",
+							    "\"array\": [\"(0, time)\"]",
+							"},",
+							"\"mirroring\": \"no\",",
+							"\"sampled_array\": {",
+								"\"function\": {",
+									"\"name\": \"res\",",
+									"\"param\": {",
+										"\"vector\": {",
+											"\"type\": \"NODE\",",
+											"\"ID\": \"Head\",",
+											"\"array\": [\"(0, x_acceleration)\", \"(0, y_acceleration)\", \"(0, z_acceleration)\"]",
+										"}",
+									"}",
+								"}",
+							"}",
+						"}",
+					"}",
+				"}",
+			],
+        "description": "https://gitlab.com/VSI-TUGraz/Dynasaur/-/wikis/Standard%20math%20functions"
+    },
+	
+	"sbtout_force": {	
+		"scope": "",
+		"prefix": "sbtout_force",
+		"body": 
+			[
+				"{",
+				   "\"name\": \"$1\",",
+					"\"part_of\" : \"SEAT_BELT\",",
+					   "\"y\" : {\"type\": \"SEAT_BELT\", \"ID\": \"$1\", \"array\": [\"(0, belt_force)\"]},",
+					   "\"x\" : {\"type\": \"SEAT_BELT\", \"ID\": \"$1\", \"array\": [\"(0, time)\"]}",
+				"}"
+		  
+			],
+		"description": "https://gitlab.com/VSI-TUGraz/Dynasaur/-/wikis/home"
+    },
+	
+	"nodout_res_acc": {	
+	"scope": "",
+	"prefix": "res_acc_nodout",
+	"body": 
+		[
+			"{",
+			   "\"name\": \"$1\",",
+				"\"part_of\" : \"NODE\",",
+				   "\"y\" : {\"type\": \"NODE\", \"ID\": \"$1\", \"array\": [\"(0, resultant_accelertion)\"]},",
+				   "\"x\" : {\"type\": \"NODE\", \"ID\": \"$1\", \"array\": [\"(0, time)\"]}",
+			"}"
+		  
+		],
+	"description": "https://gitlab.com/VSI-TUGraz/Dynasaur/-/wikis/home"
+    },
+	
+	"nodout_res_displ": {	
+	"scope": "",
+	"prefix": "res_displ_nodout",
+	"body": 
+		[
+			"{",
+			   "\"name\": \"$1\",",
+				"\"part_of\" : \"NODE\",",
+				   "\"y\" : {\"type\": \"NODE\", \"ID\": \"$1\", \"array\": [\"(0, resultant_displacement)\"]},",
+				   "\"x\" : {\"type\": \"NODE\", \"ID\": \"$1\", \"array\": [\"(0, time)\"]}",
+			"}"
+		  
+		],
+	"description": "https://gitlab.com/VSI-TUGraz/Dynasaur/-/wikis/home"
+    },
+	
+	"secforc_moment": {	
+	"scope": "",
+	"prefix": "moment_secforc",
+	"body": 
+		[
+			"{"
+			   "\"name\": \"$1\",",
+				"\"part_of\" : \"\",",
+				   "\"y\" : {\"type\": \"CROSS_SECTION\", \"ID\": \"$1\", \"array\": [\"(0, total_moment)\"]},",
+				   "\"x\" : {\"type\": \"CROSS_SECTION\", \"ID\": \"$1\", \"array\": [\"(0, time)\"]}",
+			"}"
+		  
+		],
+	"description": "https://gitlab.com/VSI-TUGraz/Dynasaur/-/wikis/home"
+    },
+	
+	"secforc_force": {	
+	"scope": "",
+	"prefix": "force_secforc",
+	"body": 
+		[
+			"{",
+			   "\"name\": \"$1\",",
+				"\"part_of\" : \"\",",
+				   "\"y\" : {\"type\": \"CROSS_SECTION\", \"ID\": \"$1\", \"array\": [\"(0, total_force)\"]},",
+				   "\"x\" : {\"type\": \"CROSS_SECTION\", \"ID\": \"$1\", \"array\": [\"(0, time)\"]}",
+			"}"
+		  
+		],
+	"description": "https://gitlab.com/VSI-TUGraz/Dynasaur/-/wikis/home"
+    },
+	
+	"contactforce": {	
+	"scope": "",
+	"prefix": "contactforce",
+	"body": 
+		[
+			"{",
+			   "\"name\": \"$1\",",
+				"\"part_of\" : \"\",",
+				   "\"y\" : {\"type\": \"CONTACT\", \"ID\": \"$1\", \"array\": [\"(0, resultant_force)\"]},",
+				   "\"x\" : {\"type\": \"CONTACT\", \"ID\": \"$1\", \"array\": [\"(0, time)\"]}",
+			"}"
+		  
+		],
+	"description": "https://gitlab.com/VSI-TUGraz/Dynasaur/-/wikis/home"
+    },
+
+	"New Definition File": {	
+		"scope": "",
+		"prefix": "New Definition File",
+		"body": 
+			[
+				"[",
+				"{",
+				"\"${1|OBJECTS,DATA VISUALIZATION,CRITERIA|}\" : [",
+				"]",
+				"}",
+				"]"
+			],
+		"description": "https://gitlab.com/VSI-TUGraz/Dynasaur/-/wikis/Object-Definition-File"
+		},
+	
+	"Definition Block": {	
+		"scope": "",
+		"prefix": "New Definition Block",
+		"body": 
+			[
+				"{",
+				"\"${1|OBJECTS,DATA VISUALIZATION,CRITERIA|}\" : [",
+				"]",
+				"}"
+			],
+		"description": "https://gitlab.com/VSI-TUGraz/Dynasaur/-/wikis/Object-Definition-File"
+		},
+
+	"Add Object Item": {	
+		"scope": "",
+		"prefix": "Add object item",
+		"body": 
+			[
+				"{\"type\": \"${1|NODE,OBJECT,CONTACT,ELEMENT,DISCRETE,CROSS_SECTION,SEAT_BELT,ENERGY_PART,ENERGY_GLOBAL,DISBOUT,DISBOUT_PART,ABSTAT.ABSTATCPM,JOINT,SLEOUT|}\", \"name\" : \"$2\", \"id\" : [$0] }",
+				
+			],
+		"description": "https://gitlab.com/VSI-TUGraz/Dynasaur/-/wikis/Object-Definition-File"
+		},
+	"Node Kinematics": {	
+			"scope": "",
+			"prefix": "Node Kinematics",
+			"body": 
+				[
+					"{\"name\": \"$1_${4|c,d,v,a|}${2|x,y,z,rx,ry,rz|}\", \"part_of\": \"${5|Bone,Env|}\", \"x\": {\"type\": \"NODE\", \"ID\": \"$1\", \"array\": [\"(0, time)\"]}, \"y\": {\"type\": \"NODE\", \"ID\": \"$1\", \"array\": [\"(0, ${2|x,y,z,rx,ry,rz|}_${3|coordinate,displacement,velocity,acceleration|}\"]}}",
+					
+				],
+			"description": "https://gitlab.com/VSI-TUGraz/Dynasaur/-/wikis/Calculation-Procedure-Definition-File#data-visualization"
+			},
+		
+	
+	
+}

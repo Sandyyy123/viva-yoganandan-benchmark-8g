@@ -1,0 +1,5 @@
+__pycache__/
+*.rst
+*A001
+*T01*
+d3plot*

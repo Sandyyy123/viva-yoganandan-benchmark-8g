@@ -1,0 +1,7 @@
+documentation/site/
+*.bak
+*.sav
+**/.ipynb_checkpoints/
+*.orig
+*.code-workspace
+*lspost*

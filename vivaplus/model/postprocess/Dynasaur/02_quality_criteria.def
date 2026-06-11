@@ -1,0 +1,456 @@
+[{
+		"CRITERIA": [{
+				"name": "Calc_Time_max",
+				"type_of_criteria": "metadata",
+				"part_of": "TIME",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "NODE",
+							"ID": "HE-Head-CoG-Seatbelt-Accelerometer",
+							"array": ["(0, time)"]
+						}
+					}
+				}
+			},
+
+			{
+				"name": "Hourglass_Energy_Max",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, hourglass_energy)"]
+
+						}
+					}
+				}
+			},
+			{
+				"name": "Internal_Energy_Max",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, internal_energy)"]
+						}
+
+					}
+				}
+			},
+
+			{
+				"name": "Total_Energy_Max",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, total_energy)"]
+						}
+					}
+				}
+			},
+			{
+				"name": "Kinetic_Energy_Max",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, kinetic_energy)"]
+						}
+					}
+				}
+			},
+			{
+				"name": "Added_Mass_Max",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, added_mass)"]
+						}
+					}
+				}
+			},
+			{
+				"name": "Added_Mass_percent_increase",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, percent_increase)"]
+						}
+					}
+				}
+			},
+			{
+				"name": "Sliding_Energy",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, sliding_interface_energy)"]
+						}
+					}
+				}
+			},
+			{
+				"name": "Hourglass/Total-Energy_Max",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "div",
+								"param": {
+									"data_vector_1": {
+										"type": "ENERGY_GLOBAL",
+										"ID": "Model",
+										"array": ["(0, hourglass_energy)"]
+									},
+									"data_vector_2": {
+										"type": "ENERGY_GLOBAL",
+										"ID": "Model",
+										"array": ["(0, total_energy)"]
+									}
+								}
+							}
+						}
+					}
+				}
+			},
+            {
+				"name": "vivaplus_Internal_Energy_Max",
+				"type_of_criteria": "energy",
+				"part_of": "HBM",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "ENERGY_PART",
+										"ID": "HBM_vivaplus",
+										"array": ["(all, internal_energy)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+			},
+            {
+				"name": "vivaplus_Kinetic_Energy_Max",
+				"type_of_criteria": "energy",
+				"part_of": "HBM",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "ENERGY_PART",
+										"ID": "HBM_vivaplus",
+										"array": ["(all, kinetic_energy)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+			},            
+			{
+				"name": "vivaplus_Hourglass_Energy_max",
+				"type_of_criteria": "energy",
+				"part_of": "HBM",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "ENERGY_PART",
+										"ID": "HBM_vivaplus",
+										"array": ["(all, hourglass_energy)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+			},
+            {
+				"name": "vivaplus_Added_Mass_Max",
+				"type_of_criteria": "energy",
+				"part_of": "HBM",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "ENERGY_PART",
+										"ID": "HBM_vivaplus",
+										"array": ["(all, mass)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+			}
+		]
+	},
+
+
+	{
+		"DATA VISUALIZATION": [{
+				"name": "Total_Energy_time",
+				"part_of": "MODEL",
+				"y": {
+					"label": "total_energy",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, total_energy)"]
+				},
+				"x": {
+					"label": "time",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Internal_Energy_time",
+				"part_of": "MODEL",
+				"y": {
+					"label": "internal_energy",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, internal_energy)"]
+				},
+				"x": {
+					"label": "time",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Kinetic_Energy_time",
+				"part_of": "MODEL",
+				"y": {
+					"label": "kinetic_energy",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, kinetic_energy)"]
+				},
+				"x": {
+					"label": "time",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Hourglass_Energy_time",
+				"part_of": "MODEL",
+				"y": {
+					"label": "hourglass_energy",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, hourglass_energy)"]
+				},
+				"x": {
+					"label": "time",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Added_mass_time",
+				"part_of": "MODEL",
+				"y": {
+					"label": "added_mass",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, added_mass)"]
+				},
+				"x": {
+					"label": "time",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Added_mass_percent_increase_time",
+				"part_of": "MODEL",
+				"y": {
+					"label": "percent_increase",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, percent_increase)"]
+				},
+				"x": {
+					"label": "time",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Sliding_Energy_time",
+				"part_of": "MODEL",
+				"y": {
+					"label": "sliding_interface_energy",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, sliding_interface_energy)"]
+				},
+				"x": {
+					"label": "time",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "vivaplus_Internal_Energy_time",
+				"part_of": "HBM",
+				"x": {
+					"label": "time",
+					"type": "ENERGY_PART",
+					"ID": "HBM_vivaplus",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "internal_energy",
+					"function": {
+						"name": "row_sum",
+						"param": {
+							"matrix": {
+								"type": "ENERGY_PART",
+								"ID": "HBM_vivaplus",
+								"array": ["(all, internal_energy)"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"name": "vivaplus_Kinetic_Energy_time",
+				"part_of": "HBM",
+				"x": {
+					"label": "time",
+					"type": "ENERGY_PART",
+					"ID": "HBM_vivaplus",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "kinetic_energy",
+					"function": {
+						"name": "row_sum",
+						"param": {
+							"matrix": {
+								"type": "ENERGY_PART",
+								"ID": "HBM_vivaplus",
+								"array": ["(all, kinetic_energy)"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"name": "vivaplus_Hourglass_Energy_time",
+				"part_of": "HBM",
+				"x": {
+					"label": "time",
+					"type": "ENERGY_PART",
+					"ID": "HBM_vivaplus",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "hourglass_energy",
+					"function": {
+						"name": "row_sum",
+						"param": {
+							"matrix": {
+								"type": "ENERGY_PART",
+								"ID": "HBM_vivaplus",
+								"array": ["(all, hourglass_energy)"]
+							}
+						}
+					}
+				}
+			},
+            {
+				"name": "vivaplus_Added_Mass_time",
+				"part_of": "HBM",
+				"x": {
+					"label": "time",
+					"type": "ENERGY_PART",
+					"ID": "HBM_vivaplus",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "added_mass",
+					"function": {
+						"name": "row_sum",
+						"param": {
+							"matrix": {
+								"type": "ENERGY_PART",
+								"ID": "HBM_vivaplus",
+								"array": ["(all, mass)"]
+							}
+						}
+					}
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,3662 @@
+[{
+	"CRITERIA": [{
+			"name": "TX-Ribcage-R1-Cortical-L_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R1-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R1-Cortical-L_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R1-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R1-Cortical-L_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R1-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R2-Cortical-L_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R2-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R2-Cortical-L_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R2-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R2-Cortical-L_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R2-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R3-Cortical-L_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R3-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R3-Cortical-L_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R3-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R3-Cortical-L_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R3-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R4-Cortical-L_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R4-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R4-Cortical-L_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R4-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R4-Cortical-L_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R4-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R5-Cortical-L_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R5-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R5-Cortical-L_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R5-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R5-Cortical-L_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R5-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R6-Cortical-L_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R6-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R6-Cortical-L_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R6-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R6-Cortical-L_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R6-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R7-Cortical-L_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R7-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R7-Cortical-L_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R7-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R7-Cortical-L_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R7-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R8-Cortical-L_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R8-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R8-Cortical-L_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R8-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R8-Cortical-L_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R8-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R9-Cortical-L_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R9-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R9-Cortical-L_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R9-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R9-Cortical-L_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R9-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R10-Cortical-L_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R10-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R10-Cortical-L_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R10-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R10-Cortical-L_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R10-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R11-Cortical-L_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R11-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R11-Cortical-L_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R11-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R11-Cortical-L_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R11-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R12-Cortical-L_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R12-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R12-Cortical-L_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R12-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R12-Cortical-L_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R12-Cortical-L",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R1-Cortical-R_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R1-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R1-Cortical-R_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R1-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R1-Cortical-R_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R1-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R2-Cortical-R_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R2-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R2-Cortical-R_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R2-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R2-Cortical-R_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R2-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R3-Cortical-R_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R3-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R3-Cortical-R_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R3-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R3-Cortical-R_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R3-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R4-Cortical-R_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R4-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R4-Cortical-R_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R4-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R4-Cortical-R_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R4-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R5-Cortical-R_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R5-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R5-Cortical-R_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R5-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R5-Cortical-R_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R5-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R6-Cortical-R_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R6-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R6-Cortical-R_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R6-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R6-Cortical-R_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R6-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R7-Cortical-R_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R7-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R7-Cortical-R_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R7-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R7-Cortical-R_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R7-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R8-Cortical-R_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R8-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R8-Cortical-R_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R8-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R8-Cortical-R_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R8-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R9-Cortical-R_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R9-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R9-Cortical-R_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R9-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R9-Cortical-R_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R9-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R10-Cortical-R_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R10-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R10-Cortical-R_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R10-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R10-Cortical-R_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R10-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R11-Cortical-R_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R11-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R11-Cortical-R_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R11-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R11-Cortical-R_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R11-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-R12-Cortical-R_prob_25YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R12-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1000000
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R12-Cortical-R_prob_50YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R12-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1146132
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-R12-Cortical-R_prob_75YO",
+			"type_of_criteria": "injury",
+			"part_of": "CHEST",
+			"function": {
+				"name": "ccdf_weibull",
+				"param": {
+					"x": {
+						"function": {
+							"name": "mult",
+							"param": {
+								"data_vector_1": {
+									"function": {
+										"name": "stress_strain_part_max",
+										"param": {
+											"object_data": {
+												"type": "OBJECT",
+												"ID": "TX-Ribcage-R12-Cortical-R",
+												"strain_stress": "Strain"
+											},
+											"selection_tension_compression": "Tension",
+											"integration_point": "Max",
+											"nr_largest_elements": 1
+										}
+									}
+								},
+								"data_vector_2": {
+									"value": 1341381
+								}
+							}
+						}
+					},
+					"lambda_": 33268.7,
+					"k": 4.24955
+				}
+			}
+
+
+
+
+		}
+	]
+}, {
+	"DATA VISUALIZATION": [{
+			"name": "TX-Ribcage-Overall_Rib_Risk_25YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 0,
+						"stop": 3,
+						"num": 4,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "binom",
+					"param": {
+						"max_broken_ribs": 3,
+						"risk": {
+							"function": {
+								"name": "ccdf_weibull",
+								"param": {
+									"x": {
+										"function": {
+											"name": "mult",
+											"param": {
+												"data_vector_1": {
+													"function": {
+														"name": "stress_strain_part_max",
+														"param": {
+															"object_data": {
+																"type": "OBJECT",
+																"ID": "TX-Ribcage-Cortical",
+																"strain_stress": "Strain"
+															},
+															"selection_tension_compression": "Tension",
+															"integration_point": "Max",
+															"nr_largest_elements": 1
+														}
+													}
+												},
+												"data_vector_2": {
+													"value": 1000000
+												}
+											}
+										}
+									},
+									"lambda_": 33268.7,
+									"k": 4.24955
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Overall_Rib_Risk_50YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 0,
+						"stop": 3,
+						"num": 4,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "binom",
+					"param": {
+						"max_broken_ribs": 3,
+						"risk": {
+							"function": {
+								"name": "ccdf_weibull",
+								"param": {
+									"x": {
+										"function": {
+											"name": "mult",
+											"param": {
+												"data_vector_1": {
+													"function": {
+														"name": "stress_strain_part_max",
+														"param": {
+															"object_data": {
+																"type": "OBJECT",
+																"ID": "TX-Ribcage-Cortical",
+																"strain_stress": "Strain"
+															},
+															"selection_tension_compression": "Tension",
+															"integration_point": "Max",
+															"nr_largest_elements": 1
+														}
+													}
+												},
+												"data_vector_2": {
+													"value": 1146132
+												}
+											}
+										}
+									},
+									"lambda_": 33268.7,
+									"k": 4.24955
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Overall_Rib_Risk_75YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 0,
+						"stop": 3,
+						"num": 4,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "binom",
+					"param": {
+						"max_broken_ribs": 3,
+						"risk": {
+							"function": {
+								"name": "ccdf_weibull",
+								"param": {
+									"x": {
+										"function": {
+											"name": "mult",
+											"param": {
+												"data_vector_1": {
+													"function": {
+														"name": "stress_strain_part_max",
+														"param": {
+															"object_data": {
+																"type": "OBJECT",
+																"ID": "TX-Ribcage-Cortical",
+																"strain_stress": "Strain"
+															},
+															"selection_tension_compression": "Tension",
+															"integration_point": "Max",
+															"nr_largest_elements": 1
+														}
+													}
+												},
+												"data_vector_2": {
+													"value": 1341381
+												}
+											}
+										}
+									},
+									"lambda_": 33268.7,
+									"k": 4.24955
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Individual_Rib_Risk_25YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 1,
+						"stop": 24,
+						"num": 24,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "ccdf_weibull",
+					"param": {
+						"x": {
+							"function": {
+								"name": "mult",
+								"param": {
+									"data_vector_1": {
+										"function": {
+											"name": "stress_strain_part_max",
+											"param": {
+												"object_data": {
+													"type": "OBJECT",
+													"ID": "TX-Ribcage-Cortical",
+													"strain_stress": "Strain"
+												},
+												"selection_tension_compression": "Tension",
+												"integration_point": "Max",
+												"nr_largest_elements": 1
+											}
+										}
+									},
+									"data_vector_2": {
+										"value": 1000000
+									}
+								}
+							}
+						},
+						"lambda_": 33268.7,
+						"k": 4.24955
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Individual_Rib_Risk_50YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 1,
+						"stop": 24,
+						"num": 24,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "ccdf_weibull",
+					"param": {
+						"x": {
+							"function": {
+								"name": "mult",
+								"param": {
+									"data_vector_1": {
+										"function": {
+											"name": "stress_strain_part_max",
+											"param": {
+												"object_data": {
+													"type": "OBJECT",
+													"ID": "TX-Ribcage-Cortical",
+													"strain_stress": "Strain"
+												},
+												"selection_tension_compression": "Tension",
+												"integration_point": "Max",
+												"nr_largest_elements": 1
+											}
+										}
+									},
+									"data_vector_2": {
+										"value": 1146132
+									}
+								}
+							}
+						},
+						"lambda_": 33268.7,
+						"k": 4.24955
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Individual_Rib_Risk_75YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 1,
+						"stop": 24,
+						"num": 24,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "ccdf_weibull",
+					"param": {
+						"x": {
+							"function": {
+								"name": "mult",
+								"param": {
+									"data_vector_1": {
+										"function": {
+											"name": "stress_strain_part_max",
+											"param": {
+												"object_data": {
+													"type": "OBJECT",
+													"ID": "TX-Ribcage-Cortical",
+													"strain_stress": "Strain"
+												},
+												"selection_tension_compression": "Tension",
+												"integration_point": "Max",
+												"nr_largest_elements": 1
+											}
+										}
+									},
+									"data_vector_2": {
+										"value": 1341381
+									}
+								}
+							}
+						},
+						"lambda_": 33268.7,
+						"k": 4.24955
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Overall-R_Rib_Risk_25YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 0,
+						"stop": 3,
+						"num": 4,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "binom",
+					"param": {
+						"max_broken_ribs": 3,
+						"risk": {
+							"function": {
+								"name": "ccdf_weibull",
+								"param": {
+									"x": {
+										"function": {
+											"name": "mult",
+											"param": {
+												"data_vector_1": {
+													"function": {
+														"name": "stress_strain_part_max",
+														"param": {
+															"object_data": {
+																"type": "OBJECT",
+																"ID": "TX-Ribcage-Cortical-R",
+																"strain_stress": "Strain"
+															},
+															"selection_tension_compression": "Tension",
+															"integration_point": "Max",
+															"nr_largest_elements": 1
+														}
+													}
+												},
+												"data_vector_2": {
+													"value": 1000000
+												}
+											}
+										}
+									},
+									"lambda_": 33268.7,
+									"k": 4.24955
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Overall-R_Rib_Risk_50YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 0,
+						"stop": 3,
+						"num": 4,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "binom",
+					"param": {
+						"max_broken_ribs": 3,
+						"risk": {
+							"function": {
+								"name": "ccdf_weibull",
+								"param": {
+									"x": {
+										"function": {
+											"name": "mult",
+											"param": {
+												"data_vector_1": {
+													"function": {
+														"name": "stress_strain_part_max",
+														"param": {
+															"object_data": {
+																"type": "OBJECT",
+																"ID": "TX-Ribcage-Cortical-R",
+																"strain_stress": "Strain"
+															},
+															"selection_tension_compression": "Tension",
+															"integration_point": "Max",
+															"nr_largest_elements": 1
+														}
+													}
+												},
+												"data_vector_2": {
+													"value": 1146132
+												}
+											}
+										}
+									},
+									"lambda_": 33268.7,
+									"k": 4.24955
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Overall-R_Rib_Risk_75YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 0,
+						"stop": 3,
+						"num": 4,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "binom",
+					"param": {
+						"max_broken_ribs": 3,
+						"risk": {
+							"function": {
+								"name": "ccdf_weibull",
+								"param": {
+									"x": {
+										"function": {
+											"name": "mult",
+											"param": {
+												"data_vector_1": {
+													"function": {
+														"name": "stress_strain_part_max",
+														"param": {
+															"object_data": {
+																"type": "OBJECT",
+																"ID": "TX-Ribcage-Cortical-R",
+																"strain_stress": "Strain"
+															},
+															"selection_tension_compression": "Tension",
+															"integration_point": "Max",
+															"nr_largest_elements": 1
+														}
+													}
+												},
+												"data_vector_2": {
+													"value": 1341381
+												}
+											}
+										}
+									},
+									"lambda_": 33268.7,
+									"k": 4.24955
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Individual-R_Rib_Risk_25YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 1,
+						"stop": 12,
+						"num": 12,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "ccdf_weibull",
+					"param": {
+						"x": {
+							"function": {
+								"name": "mult",
+								"param": {
+									"data_vector_1": {
+										"function": {
+											"name": "stress_strain_part_max",
+											"param": {
+												"object_data": {
+													"type": "OBJECT",
+													"ID": "TX-Ribcage-Cortical-R",
+													"strain_stress": "Strain"
+												},
+												"selection_tension_compression": "Tension",
+												"integration_point": "Max",
+												"nr_largest_elements": 1
+											}
+										}
+									},
+									"data_vector_2": {
+										"value": 1000000
+									}
+								}
+							}
+						},
+						"lambda_": 33268.7,
+						"k": 4.24955
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Individual-R_Rib_Risk_50YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 1,
+						"stop": 12,
+						"num": 12,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "ccdf_weibull",
+					"param": {
+						"x": {
+							"function": {
+								"name": "mult",
+								"param": {
+									"data_vector_1": {
+										"function": {
+											"name": "stress_strain_part_max",
+											"param": {
+												"object_data": {
+													"type": "OBJECT",
+													"ID": "TX-Ribcage-Cortical-R",
+													"strain_stress": "Strain"
+												},
+												"selection_tension_compression": "Tension",
+												"integration_point": "Max",
+												"nr_largest_elements": 1
+											}
+										}
+									},
+									"data_vector_2": {
+										"value": 1146132
+									}
+								}
+							}
+						},
+						"lambda_": 33268.7,
+						"k": 4.24955
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Individual-R_Rib_Risk_75YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 1,
+						"stop": 12,
+						"num": 12,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "ccdf_weibull",
+					"param": {
+						"x": {
+							"function": {
+								"name": "mult",
+								"param": {
+									"data_vector_1": {
+										"function": {
+											"name": "stress_strain_part_max",
+											"param": {
+												"object_data": {
+													"type": "OBJECT",
+													"ID": "TX-Ribcage-Cortical-R",
+													"strain_stress": "Strain"
+												},
+												"selection_tension_compression": "Tension",
+												"integration_point": "Max",
+												"nr_largest_elements": 1
+											}
+										}
+									},
+									"data_vector_2": {
+										"value": 1341381
+									}
+								}
+							}
+						},
+						"lambda_": 33268.7,
+						"k": 4.24955
+					}
+				}
+			}
+		},
+		{
+			"name": "TX-Ribcage-Overall-L_Rib_Risk_25YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 0,
+						"stop": 3,
+						"num": 4,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "binom",
+					"param": {
+						"max_broken_ribs": 3,
+						"risk": {
+							"function": {
+								"name": "ccdf_weibull",
+								"param": {
+									"x": {
+										"function": {
+											"name": "mult",
+											"param": {
+												"data_vector_1": {
+													"function": {
+														"name": "stress_strain_part_max",
+														"param": {
+															"object_data": {
+																"type": "OBJECT",
+																"ID": "TX-Ribcage-Cortical-L",
+																"strain_stress": "Strain"
+															},
+															"selection_tension_compression": "Tension",
+															"integration_point": "Max",
+															"nr_largest_elements": 1
+														}
+													}
+												},
+												"data_vector_2": {
+													"value": 1000000
+												}
+											}
+										}
+									},
+									"lambda_": 33268.7,
+									"k": 4.24955
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Overall-L_Rib_Risk_50YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 0,
+						"stop": 3,
+						"num": 4,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "binom",
+					"param": {
+						"max_broken_ribs": 3,
+						"risk": {
+							"function": {
+								"name": "ccdf_weibull",
+								"param": {
+									"x": {
+										"function": {
+											"name": "mult",
+											"param": {
+												"data_vector_1": {
+													"function": {
+														"name": "stress_strain_part_max",
+														"param": {
+															"object_data": {
+																"type": "OBJECT",
+																"ID": "TX-Ribcage-Cortical-L",
+																"strain_stress": "Strain"
+															},
+															"selection_tension_compression": "Tension",
+															"integration_point": "Max",
+															"nr_largest_elements": 1
+														}
+													}
+												},
+												"data_vector_2": {
+													"value": 1146132
+												}
+											}
+										}
+									},
+									"lambda_": 33268.7,
+									"k": 4.24955
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Overall-L_Rib_Risk_75YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 0,
+						"stop": 3,
+						"num": 4,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "binom",
+					"param": {
+						"max_broken_ribs": 3,
+						"risk": {
+							"function": {
+								"name": "ccdf_weibull",
+								"param": {
+									"x": {
+										"function": {
+											"name": "mult",
+											"param": {
+												"data_vector_1": {
+													"function": {
+														"name": "stress_strain_part_max",
+														"param": {
+															"object_data": {
+																"type": "OBJECT",
+																"ID": "TX-Ribcage-Cortical-L",
+																"strain_stress": "Strain"
+															},
+															"selection_tension_compression": "Tension",
+															"integration_point": "Max",
+															"nr_largest_elements": 1
+														}
+													}
+												},
+												"data_vector_2": {
+													"value": 1341381
+												}
+											}
+										}
+									},
+									"lambda_": 33268.7,
+									"k": 4.24955
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Individual-L_Rib_Risk_25YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 1,
+						"stop": 12,
+						"num": 12,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "ccdf_weibull",
+					"param": {
+						"x": {
+							"function": {
+								"name": "mult",
+								"param": {
+									"data_vector_1": {
+										"function": {
+											"name": "stress_strain_part_max",
+											"param": {
+												"object_data": {
+													"type": "OBJECT",
+													"ID": "TX-Ribcage-Cortical-L",
+													"strain_stress": "Strain"
+												},
+												"selection_tension_compression": "Tension",
+												"integration_point": "Max",
+												"nr_largest_elements": 1
+											}
+										}
+									},
+									"data_vector_2": {
+										"value": 1000000
+									}
+								}
+							}
+						},
+						"lambda_": 33268.7,
+						"k": 4.24955
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Individual-L_Rib_Risk_50YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 1,
+						"stop": 12,
+						"num": 12,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "ccdf_weibull",
+					"param": {
+						"x": {
+							"function": {
+								"name": "mult",
+								"param": {
+									"data_vector_1": {
+										"function": {
+											"name": "stress_strain_part_max",
+											"param": {
+												"object_data": {
+													"type": "OBJECT",
+													"ID": "TX-Ribcage-Cortical-L",
+													"strain_stress": "Strain"
+												},
+												"selection_tension_compression": "Tension",
+												"integration_point": "Max",
+												"nr_largest_elements": 1
+											}
+										}
+									},
+									"data_vector_2": {
+										"value": 1146132
+									}
+								}
+							}
+						},
+						"lambda_": 33268.7,
+						"k": 4.24955
+					}
+				}
+			}
+		},
+
+		{
+			"name": "TX-Ribcage-Individual-L_Rib_Risk_75YO",
+			"part_of": "CHEST",
+			"x": {
+				"function": {
+					"name": "linspace",
+					"param": {
+						"start": 1,
+						"stop": 12,
+						"num": 12,
+						"endpoint": "True"
+					}
+				}
+			},
+			"y": {
+				"function": {
+					"name": "ccdf_weibull",
+					"param": {
+						"x": {
+							"function": {
+								"name": "mult",
+								"param": {
+									"data_vector_1": {
+										"function": {
+											"name": "stress_strain_part_max",
+											"param": {
+												"object_data": {
+													"type": "OBJECT",
+													"ID": "TX-Ribcage-Cortical-L",
+													"strain_stress": "Strain"
+												},
+												"selection_tension_compression": "Tension",
+												"integration_point": "Max",
+												"nr_largest_elements": 1
+											}
+										}
+									},
+									"data_vector_2": {
+										"value": 1341381
+									}
+								}
+							}
+						},
+						"lambda_": 33268.7,
+						"k": 4.24955
+					}
+				}
+			}
+		}
+
+	]
+}]

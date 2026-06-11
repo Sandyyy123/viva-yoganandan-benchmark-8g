@@ -1,0 +1,246 @@
+[
+    {
+        "TITLE": "VIVAplus50F"
+    },
+    {
+        "UNIT": {
+            "time": "ms",
+            "length": "mm",
+            "mass": "kg"
+        }
+    },
+    {
+        "CRITERIA": [
+        {
+				"name": "Hourglass_Energy_Max",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, hourglass_energy)"]
+						},
+						"time": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, time)"]
+						}
+					}
+				}
+			},
+            {
+				"name": "Internal_Energy_Max",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, internal_energy)"]
+						},
+						"time": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, time)"]
+						}
+					}
+				}
+			},
+			{
+				"name": "Added_Mass_Max",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, added_mass)"]
+						},
+						"time": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, time)"]
+						}
+					}
+				}
+			}
+                     
+        ]
+    },
+    {
+        "DATA VISUALIZATION": [
+{
+				"name": "Added_Mass",
+				"part_of": "MODEL",
+				"y": {
+					"label": "mass",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, added_mass)"]
+				},
+				"x": {
+					"label": "time",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Total_Energy",
+				"part_of": "MODEL",
+				"y": {
+					"label": "energy",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, total_energy)"]
+				},
+				"x": {
+					"label": "time",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Internal_Energy",
+				"part_of": "MODEL",
+				"y": {
+					"label": "energy",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, internal_energy)"]
+				},
+				"x": {
+					"label": "time",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Kinetic_Energy",
+				"part_of": "MODEL",
+				"y": {
+					"label": "energy",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, kinetic_energy)"]
+				},
+				"x": {
+					"label": "time",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Hourglass_Energy",
+				"part_of": "MODEL",
+				"y": {
+					"label": "energy",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, hourglass_energy)"]
+				},
+				"x": {
+					"label": "time",
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},       
+       
+        
+        
+        
+           {"name": "Sternum_PX_x", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-Sternum_PX", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "TX-Sternum_PX", "array": ["(0, x_coordinate)"]}},
+           {"name": "T8_center_x", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-T8_center", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "TX-T8_center", "array": ["(0, x_coordinate)"]}},
+            
+            
+		   {"name": "C1_COG_x", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "NE-C1_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "NE-C1_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "T1_COG_x", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, x_coordinate)"]}},
+            
+            {"name": "T8_COG_x", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-T8_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "TX-T8_COG", "array": ["(0, x_coordinate)"]}},
+            
+
+            {"name": "Head_COG_x", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, x_coordinate)"]}},
+           
+            
+          
+            {"name": "Sternum_PX_y", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-Sternum_PX", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "TX-Sternum_PX", "array": ["(0, y_coordinate)"]}},
+            
+           
+            {"name": "T8_center_y", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-T8_center", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "TX-T8_center", "array": ["(0, y_coordinate)"]}},
+            
+           
+            
+            {"name": "T1_COG_y", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, y_coordinate)"]}},
+            
+            
+            {"name": "Head_COG_y", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, y_coordinate)"]}},
+          
+          
+          
+            
+            
+            {"name": "Sternum_PX_z", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-Sternum_PX", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "TX-Sternum_PX", "array": ["(0, z_coordinate)"]}},
+            
+            {"name": "T8_center_z", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-T8_center", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "TX-T8_center", "array": ["(0, z_coordinate)"]}},
+            
+            {"name": "C1_COG_z", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "NE-C1_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "NE-C1_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "T1_COG_z", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, z_coordinate)"]}},
+            
+            {"name": "Head_COG_z", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, z_coordinate)"]}},
+
+            {"name": "C1_COG_ry", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "NE-C1_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "NE-C1_COG", "array": ["(0, ry_displacement)"]}},
+			{"name": "C2_COG_ry", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "NE-C2_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "NE-C2_COG", "array": ["(0, ry_displacement)"]}},
+			{"name": "C3_COG_ry", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "NE-C3_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "NE-C3_COG", "array": ["(0, ry_displacement)"]}},
+			{"name": "C4_COG_ry", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "NE-C4_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "NE-C4_COG", "array": ["(0, ry_displacement)"]}},
+			{"name": "C5_COG_ry", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "NE-C5_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "NE-C5_COG", "array": ["(0, ry_displacement)"]}},
+			{"name": "C6_COG_ry", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "NE-C6_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "NE-C6_COG", "array": ["(0, ry_displacement)"]}},
+			{"name": "C7_COG_ry", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "NE-C7_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "NE-C7_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "T1_COG_ry", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, ry_displacement)"]}},
+			
+			{"name": "L3_COG_ry", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "AB-L3_center", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "AB-L3_center", "array": ["(0, ry_displacement)"]}},
+            
+            {"name": "Head_COG_ry", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, ry_displacement)"]}},
+            {"name": "Head_COG_ax", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, time)"]}, "y": {"label": "acceleration", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, x_acceleration)"]}},
+            {"name": "Head_COG_ay", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, time)"]}, "y": {"label": "acceleration", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, y_acceleration)"]}},
+            {"name": "Head_COG_az", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, time)"]}, "y": {"label": "acceleration", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, z_acceleration)"]}},
+            {"name": "Head_COG_ares", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"label": "acceleration", "type": "NODE","ID": "HE-Head-CoG-Seatbelt-Accelerometer","array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]}}}}},
+            
+            
+            
+            {"name": "Head_COG_vx", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, time)"]}, "y": {"label": "velocity", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, x_velocity)"]}},
+            
+            
+            {"name": "Head_COG_vy", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, time)"]}, "y": {"label": "velocity", "type": "NODE", "ID": "HE-Head-CoG-Seatbelt-Accelerometer", "array": ["(0, y_velocity)"]}},
+            
+ 
+            
+            {"name": "T1_COG_ax", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, time)"]}, "y": {"label": "acceleration", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, x_acceleration)"]}},
+            {"name": "T1_COG_ay", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, time)"]}, "y": {"label": "acceleration", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, y_acceleration)"]}},
+            {"name": "T1_COG_az", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, time)"]}, "y": {"label": "acceleration", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, z_acceleration)"]}},
+            {"name": "T1_COG_ares", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "TX-T1_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"label": "acceleration", "type": "NODE","ID": "TX-T1_COG","array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]}}}}},
+            
+
+			{"name": "PE_Sacrum_posterior_x", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "PE-Sacrum-posterior", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "PE-Sacrum-posterior", "array": ["(0, x_coordinate)"]}},
+			{"name": "PE_Sacrum_posterior_y", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "PE-Sacrum-posterior", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "PE-Sacrum-posterior", "array": ["(0, y_coordinate)"]}},
+			{"name": "PE_Sacrum_posterior_z", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "PE-Sacrum-posterior", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "PE-Sacrum-posterior", "array": ["(0, z_coordinate)"]}},
+            {"name": "PE_Sacrum_posterior_ry", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "PE-Sacrum-posterior", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "PE-Sacrum-posterior", "array": ["(0, ry_displacement)"]}},
+
+			{"name": "OC_x", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "PE-Sacrum-posterior", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "OC_Left_Local", "array": ["(0, x_displacement)"]}},
+			{"name": "OC_y", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "PE-Sacrum-posterior", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "OC_Left_Local", "array": ["(0, y_displacement)"]}},
+			{"name": "OC_z", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "PE-Sacrum-posterior", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "OC_Left_Local", "array": ["(0, z_displacement)"]}},
+            {"name": "OC_ry", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "PE-Sacrum-posterior", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "OC_Left_Local", "array": ["(0, ry_displacement)"]}}
+                        
+        ]
+    }
+]

@@ -1,0 +1,95 @@
+   {
+   	"OBJECTS": [
+  		{
+   			"type": "NODE",
+   			"name": "Vehicle-CoG-Seatbelt-Accelerometer",
+   			"id": [11000000]
+   		},
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Right-Leg-Vehicle_Cntac",
+            "id": ["1002s"]
+        },        
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Left-Leg-Vehicle_Cntac",
+            "id": ["1003s"]
+        },
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Right-Arm-Vehicle_Cntac",
+            "id": ["1004s"]
+        },
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Left-Arm-Vehicle_Cntac",
+            "id": ["1005s"]
+        },
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Thorax-Vehicle_Cntac",
+            "id": ["1006s"]
+        }, 
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Head-Vehicle_Cntac",
+            "id": ["1007s"]
+        },  
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Right-Leg-Bumper_Cntac",
+            "id": ["1000022s"]
+        }, 
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Left-Leg-Bumper_Cntac",
+            "id": ["1000032s"]
+        },  
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Thorax-Bumper_Cntac",
+            "id": ["1000062s"]
+        }, 
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Right-Arm-Bumper_Cntac",
+            "id": ["1000042s"]
+        },  
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Left-Arm-Bumper_Cntac",
+            "id": ["1000025s"]
+        },  
+
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Right-Leg-Bonet_Cntac",
+            "id": ["1000025s"]
+        }, 
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Left-Leg-Bonet_Cntac",
+            "id": ["1000035s"]
+        },  
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Thorax-Bonet_Cntac",
+            "id": ["1000065s"]
+        }, 
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Right-Arm-Bonet_Cntac",
+            "id": ["1000045s"]
+        },  
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Left-Arm-Bonet_Cntac",
+            "id": ["1000055s"]
+        }, 
+        {   
+            "type": "CONTACT",
+            "name": "vivaplus-Head-Bonet_Cntac",
+            "id": ["1000075s"]
+        }         
+   	]
+   }

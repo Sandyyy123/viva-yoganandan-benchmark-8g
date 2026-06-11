@@ -1,0 +1,227 @@
+[
+    {
+        "CRITERIA": [
+        
+        {
+            "name": "NE-NIC_max",
+            "type_of_criteria": "injury",
+            "part_of": "NECK",
+            "function": {
+                "name": "max",
+                "param": {
+                    "data_vector": {
+                        "function": {
+                            "name": "NIC",
+                            "param": {
+                                "a_head": {
+                                    "function": {
+                                        "name": "cfc",
+                                        "param": {
+                                            "cfc": 180,
+                                            "sampled_array": {
+                                                "type": "NODE",
+                                                "ID": "HE-Head-CoG-Accelerometer-Global",
+                                                "array": [
+                                                    "(0, x_acceleration)"
+                                                ]
+                                            },
+                                            "time": {
+                                                "type": "NODE",
+                                                "ID": "HE-Head-CoG-Accelerometer-Global",
+                                                "array": [
+                                                    "(0, time)"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                "a_t1": {
+                                    "function": {
+                                        "name": "cfc",
+                                        "param": {
+                                            "cfc": 60,
+                                            "sampled_array": {
+                                                "type": "NODE",
+                                                "ID": "TX-T1_COG",
+                                                "array": [
+                                                    "(0, x_acceleration)"
+                                                ]
+                                            },
+                                            "time": {
+                                                "type": "NODE",
+                                                "ID": "TX-T1_COG",
+                                                "array": [
+                                                    "(0, time)"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                "time_": {
+                                    "type": "NODE",
+                                    "ID": "TX-T1_COG",
+                                    "array": [
+                                        "(0, time)"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+                "name": "NE-NIC_risk",
+                "type_of_criteria": "injury",
+                "part_of": "NECK",
+                "function": {
+                    "name": "ccdf_sigmoid",
+                    "param": {
+                        "k": 0.21,
+                        "x0": 15.952380952380953,
+                        "x": {
+                            "function": {
+                                "name": "max",
+                                "param": {
+                                    "data_vector": {
+                                        "function": {
+                                            "name": "NIC",
+                                            "param": {
+                                                "a_head": {
+                                                    "function": {
+                                                        "name": "cfc",
+                                                        "param": {
+                                                            "cfc": 180,
+                                                            "sampled_array": {
+                                                                "type": "NODE",
+                                                                "ID": "HE-Head-CoG-Accelerometer-Global",
+                                                                "array": [
+                                                                    "(0, x_acceleration)"
+                                                                ]
+                                                            },
+                                                            "time": {
+                                                                "type": "NODE",
+                                                                "ID": "HE-Head-CoG-Accelerometer-Global",
+                                                                "array": [
+                                                                    "(0, time)"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "a_t1": {
+                                                    "function": {
+                                                        "name": "cfc",
+                                                        "param": {
+                                                            "cfc": 60,
+                                                            "sampled_array": {
+                                                                "type": "NODE",
+                                                                "ID": "TX-T1_COG",
+                                                                "array": [
+                                                                    "(0, x_acceleration)"
+                                                                ]
+                                                            },
+                                                            "time": {
+                                                                "type": "NODE",
+                                                                "ID": "TX-T1_COG",
+                                                                "array": [
+                                                                    "(0, time)"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "time_": {
+                                                    "type": "NODE",
+                                                    "ID": "TX-T1_COG",
+                                                    "array": [
+                                                        "(0, time)"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+     ]
+    },
+    {
+        "DATA VISUALIZATION": [        
+            {
+                "name": "NE-NIC_curve",
+                "part_of": "NECK",
+                "y": {
+                    "label": "NIC",
+                    "function": {
+                        "name": "NIC",
+                        "param": {
+                            "a_head": {
+                                "function": {
+                                    "name": "cfc",
+                                    "param": {
+                                        "cfc": 180,
+                                        "sampled_array": {
+                                            "type": "NODE",
+                                            "ID": "HE-Head-CoG-Accelerometer-Global",
+                                            "array": [
+                                                "(0, x_acceleration)"
+                                            ]
+                                        },
+                                        "time": {
+                                            "type": "NODE",
+                                            "ID": "HE-Head-CoG-Accelerometer-Global",
+                                            "array": [
+                                                "(0, time)"
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            "a_t1": {
+                                "function": {
+                                    "name": "cfc",
+                                    "param": {
+                                        "cfc": 60,
+                                        "sampled_array": {
+                                            "type": "NODE",
+                                            "ID": "TX-T1_COG",
+                                            "array": [
+                                                "(0, x_acceleration)"
+                                            ]
+                                        },
+                                        "time": {
+                                            "type": "NODE",
+                                            "ID": "TX-T1_COG",
+                                            "array": [
+                                                "(0, time)"
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            "time_": {
+                                "type": "NODE",
+                                "ID": "HE-Head-CoG-Accelerometer-Global",
+                                "array": [
+                                    "(0, time)"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "HE-Head-CoG-Accelerometer-Global",
+                    "array": [
+                        "(0, time)"
+                    ]
+                }
+            }               
+        ]
+    }
+]

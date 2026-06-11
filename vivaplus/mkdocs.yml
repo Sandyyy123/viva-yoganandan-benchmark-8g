@@ -1,0 +1,153 @@
+# Project information
+site_name: VIVA+ Human Body Models
+site_url: https://vivaplus.readthedocs.io/en/latest/
+site_description: VIVA+  documentation
+site_author: VIVA+ Team
+
+# Repository
+repo_name: openvt/vivaplus
+repo_url: https://openvt.eu/fem/viva/vivaplus
+
+# Copyright
+copyright: Copyright &copy; 2019-2024 VIVA+ Team
+
+# Page tree
+nav:
+    - index.md
+        # - Getting started: index.md
+        #- VIVA+ Models overview: getting-started/10-model-overview.md
+        #- FAQ: getting-started/FAQ
+    - About:
+        - about/index.md
+        - about/faq.md
+        - about/open-science.md
+        - about/contributors.md
+
+
+    - Model Documentation:
+        - 'model/index.md'
+        - Validation: 'model/validation.md'
+        - Injury assessment: 'model/injury-assessment.md'
+        - Publications: 'model/publications.md'
+        - Anthropometry: model/anthro.md
+        - Model Data Structure: 'model/data-structure.md'
+        - Head: model/body-region/head.md
+        - Spinal Column: model/body-region/spine.md
+        - Neck: 'model/body-region/neck.md'
+        - Upper Extremities: model/body-region/upper-extremities.md
+        - Thorax: model/body-region/thorax.md
+        - Abdomen: 'model/body-region/abdomen.md'
+        - Pelvis: 'model/body-region/pelvis.md'
+        - Lower Extremities: 'model/body-region/lower-extremities.md'
+    - User Guide:
+        - user-guide/index.md
+    #    - User guide: user-guide/01-getting-started.md
+    #    - Setting up a simulation: user-guide/10-setting-up.md
+    #    - Model validation: user-guide/20-model-validation.md
+        # - Control Card Guidelines: 'model/80-control-card-guidelines.md'
+        - Simulation outputs: user-guide/simulation-outputs.md
+        - Getting started with Python: user-guide/Python-Jupyter.md
+        - Postprocessing with Dynasaur: user-guide/postprocess-dynasaur.md
+        - Positioning with PIPER: user-guide/positioning-with-PIPER.md
+    #    - LS-Dyna Quick Reference: user-guide/80-lsdyna-ref.md
+    - Contributor Guide:
+        - 'contributor-guide/index.md'
+        # - 'Git Basics': 'contributor-guide/22-git-basics.md'
+        #- 'More Git Functions': contributor-guide/25-more-git-functions.md
+        #- 'Git Resources': contributor-guide/29-git-resources.md
+        #- 'Merging your contributions': 'contributor-guide/50-merge-guidelines.md'
+        #- 'Making model releases': 'contributor-guide/60-model-release.md'
+        - Documentation Guidelines: 'contributor-guide/70-documentation-guidelines.md'
+        - Validation Catalog: 'contributor-guide/validation-catalog.md'
+        - Release guidelines for Maintainers: contributor-guide/release-guidelines.md
+        - Positioned Models : contributor-guide/positioned-models.md
+        - Contributor License Agreement: contributor-guide/cla.md
+        #- 'Toolkit': 'contributor-guide/95-toolkit.md'
+        #- 'contributor-guide/contributing-to-repo.md'
+
+    - Updates:
+        - blog/index.md
+        #- blog/authors.md
+
+# Configuration
+theme:
+    name: 'material'
+    palette:
+        - scheme: 'viva' # See extra.css
+          primary: 'amber'
+     #   accent: 'indigo'
+        #   toggle:
+        #     icon: material/lightbulb-outline
+        #     name: Switch to dark mode
+        # - scheme: slate
+        #   primary: 'amber'
+        #   toggle:
+        #     icon: material/lightbulb
+        #     name: Switch to light mode
+    features:
+      - tabs
+      - navigation.tabs
+      - navigation.indexes
+      - navigation.top
+      - navigation.tabs.sticky
+      - toc.follow
+      - content.code.copy
+      - content.code.annotate
+      
+    icon: #'images/VIRTUAL.png'
+        #logo: fontawesome/brands/git-alt
+        logo: material/walk
+        repo: fontawesome/brands/git-alt
+        annotation: material/arrow-right-circle
+        # Find more at https://material.io/resources/icons/
+    # font:
+    #     text: Heeba
+    #     code: Roboto Mono
+    favicon: 'images/favicon.ico'
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search
+  - bibtex:
+      bib_file: "docs/viva-refs.bib"
+#          - "viva-refs-1.bib"
+      cite_style: "pandoc"
+  - git-revision-date
+  - mkdocs-video
+  - blog:
+      archive: false
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+ 
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra_css:
+  - css/extra.css

@@ -1,0 +1,406 @@
+[{
+	"DATA VISUALIZATION": [{
+			"name": "vivaplus-Right-Leg-Vehicle_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Right-Leg-Vehicle_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Right-Leg-Vehicle_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "vivaplus-Left-Leg-Vehicle_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Left-Leg-Vehicle_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Left-Leg-Vehicle_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "vivaplus-Right-Arm-Vehicle_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Right-Arm-Vehicle_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Right-Arm-Vehicle_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "vivaplus-Left-Arm-Vehicle_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Left-Arm-Vehicle_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Left-Arm-Vehicle_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "vivaplus-Thorax-Vehicle_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Thorax-Vehicle_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Thorax-Vehicle_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "vivaplus-Head-Vehicle_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Head-Vehicle_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Vehicle_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "vivaplus-Right-Leg-Bumper_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Right-Leg-Bumper_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Right-Leg-Bumper_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "vivaplus-Left-Leg-Bumper_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Left-Leg-Bumper_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Left-Leg-Bumper_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "vivaplus-Thorax-Bumper_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Thorax-Bumper_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Thorax-Bumper_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "vivaplus-Right-Arm-Bumper_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Right-Arm-Bumper_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Right-Arm-Bumper_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "vivaplus-Left-Arm-Bumper_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Left-Arm-Bumper_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Left-Arm-Bumper_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "vivaplus-Right-Leg-Bonet_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Right-Leg-Bonet_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Right-Leg-Bonet_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "vivaplus-Left-Leg-Bonet_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Left-Leg-Bonet_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Left-Leg-Bonet_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "vivaplus-Thorax-Bonet_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Thorax-Bonet_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Thorax-Bonet_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "vivaplus-Right-Arm-Bonet_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Right-Arm-Bonet_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Right-Arm-Bonet_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "vivaplus-Left-Arm-Bonet_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Left-Arm-Bonet_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Left-Arm-Bonet_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"name": "vivaplus-Head-Bonet_Cntac",
+			"part_of": "CONTACT",
+			"x": {
+				"label": "time",
+				"type": "CONTACT",
+				"ID": "vivaplus-Head-Bonet_Cntac",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "force",
+				"function": {
+					"name": "res",
+					"param": {
+						"data_vector": {
+							"type": "CONTACT",
+							"ID": "vivaplus-Head-Bonet_Cntac",
+							"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+						}
+					}
+				}
+			}
+		}
+
+
+	]
+}]

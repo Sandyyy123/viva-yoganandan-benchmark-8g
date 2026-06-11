@@ -1,0 +1,295 @@
+[{
+		"CRITERIA": [
+
+			{
+				"name": "Vehicle-CoG-Seatbelt-Accelerometer_vx_max",
+				"type_of_criteria": "metadata",
+				"part_of": "VEHICLE",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "NODE",
+							"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+							"array": ["(0, x_velocity)"]
+						}
+					}
+				}
+			},
+			{
+				"name": "Vehicle-CoG-Seatbelt-Accelerometer_vy_max",
+				"type_of_criteria": "metadata",
+				"part_of": "VEHICLE",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "NODE",
+							"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+							"array": ["(0, y_velocity)"]
+						}
+					}
+				}
+			},
+			{
+				"name": "Vehicle-CoG-Seatbelt-Accelerometer_vz_max",
+				"type_of_criteria": "metadata",
+				"part_of": "VEHICLE",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "NODE",
+							"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+							"array": ["(0, z_velocity)"]
+						}
+					}
+				}
+			}
+
+		]
+	},
+	{
+		"DATA VISUALIZATION": [
+
+
+			{
+				"name": "Vehicle-CoG-Seatbelt-Accelerometer_dx",
+				"part_of": "VEHICLE",
+				"x": {
+					"label": "time",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "displacement",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, x_displacement)"]
+				}
+			},
+
+			{
+				"name": "Vehicle-CoG-Seatbelt-Accelerometerr_dy",
+				"part_of": "VEHICLE",
+				"x": {
+					"label": "time",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "displacement",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, y_displacement)"]
+				}
+			},
+
+			{
+				"name": "Vehicle-CoG-Seatbelt-Accelerometer_dz",
+				"part_of": "VEHICLE",
+				"x": {
+					"label": "time",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "displacement",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, z_displacement)"]
+				}
+			},
+
+			{
+				"name": "Vehicle-CoG-Seatbelt-Accelerometer_vx",
+				"part_of": "VEHICLE",
+				"x": {
+					"label": "time",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "displacement",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, x_velocity)"]
+				}
+			},
+
+			{
+				"name": "Vehicle-CoG-Seatbelt-Accelerometer_vy",
+				"part_of": "VEHICLE",
+				"x": {
+					"label": "time",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "displacement",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, y_velocity)"]
+				}
+			},
+
+			{
+				"name": "Vehicle-CoG-Seatbelt-Accelerometer_vz",
+				"part_of": "VEHICLE",
+				"x": {
+					"label": "time",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "displacement",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, z_velocity)"]
+				}
+			},
+
+			{
+				"name": "Vehicle-CoG-Seatbelt-Accelerometer_vres",
+				"part_of": "VEHICLE",
+				"x": {
+					"label": "time",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "acceleration",
+					"function": {
+						"name": "res",
+						"param": {
+							"data_vector": {
+								"type": "NODE",
+								"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+								"array": ["(0, x_velocity)", "(0, y_velocity)", "(0, z_velocity)"]
+							}
+						}
+					}
+				}
+			},
+
+			{
+				"name": "Vehicle-CoG-Seatbelt-Accelerometer_ax",
+				"part_of": "VEHICLE",
+				"x": {
+					"label": "time",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "acceleration",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, x_acceleration)"]
+				}
+			},
+			{
+				"name": "Vehicle-CoG-Seatbelt-Accelerometer_ay",
+				"part_of": "VEHICLE",
+				"x": {
+					"label": "time",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "acceleration",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, y_acceleration)"]
+				}
+			},
+			{
+				"name": "HVehicle-CoG-Seatbelt-Accelerometer_az",
+				"part_of": "VEHICLE",
+				"x": {
+					"label": "time",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "acceleration",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, z_acceleration)"]
+				}
+			},
+			{
+				"name": "Vehicle-CoG-Seatbelt-Accelerometer_ares",
+				"part_of": "VEHICLE",
+				"x": {
+					"label": "time",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "acceleration",
+					"function": {
+						"name": "res",
+						"param": {
+							"data_vector": {
+								"type": "NODE",
+								"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+								"array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]
+							}
+						}
+					}
+				}
+			},
+
+			{
+				"name": "Vehicle-CoG-Seatbelt-Accelerometer_ares_CFC1000",
+				"part_of": "VEHICLE",
+				"x": {
+					"label": "time",
+					"type": "NODE",
+					"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"label": "acceleration",
+					"function": {
+						"name": "res",
+						"param": {
+							"data_vector": {
+								"function": {
+									"name": "cfc",
+									"param": {
+										"cfc": 1000,
+										"time": {
+											"type": "NODE",
+											"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+											"array": ["(0, time)"]
+										},
+										"sampled_array": {
+											"type": "NODE",
+											"ID": "Vehicle-CoG-Seatbelt-Accelerometer",
+											"array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+
+
+		]
+	}
+]

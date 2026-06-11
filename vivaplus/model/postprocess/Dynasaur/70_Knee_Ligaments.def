@@ -1,0 +1,3727 @@
+[{
+		"CRITERIA": [
+            {
+				"name": "LX-Knee-Ligament-MCL-L_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-MCL-L",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-LCL-L_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-LCL-L",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-aACL-L_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-aACL-L",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-pACL-L_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-pACL-L",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-aPCL-L_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-aPCL-L",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-pPCL-L_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-pPCL-L",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-PL-L_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-PL-L",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-MCL-R_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-MCL-R",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-LCL-R_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-LCL-R",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-aACL-R_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-aACL-R",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-pACL-R_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-pACL-R",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-aPCL-R_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-aPCL-R",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-pPCL-R_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-pPCL-R",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-PL-R_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-PL-R",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             }             
+        ]
+	},
+	{
+		"DATA VISUALIZATION": [
+            {
+                "name": "LX-Knee-Ligament-MCL-L_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-MCL-L",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-MCL-L",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-LCL-L_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-LCL-L",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-LCL-L",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-aACL-L_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-aACL-L",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-aACL-L",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-pACL-L_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-pACL-L",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-pACL-L",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-aPCL-L_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-aPCL-L",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-aPCL-L",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-pPCL-L_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-pPCL-L",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-pPCL-L",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-PL-L_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-PL-L",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-PL-L",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-MCL-R_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-MCL-R",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-MCL-R",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-LCL-R_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-LCL-R",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-LCL-R",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-aACL-R_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-aACL-R",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-aACL-R",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-pACL-R_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-pACL-R",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-pACL-R",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-aPCL-R_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-aPCL-R",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-aPCL-R",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-pPCL-R_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-pPCL-R",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-pPCL-R",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-PL-R_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-PL-R",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-PL-R",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+
+            {
+                "name": "LX-Knee-Ligament-MCL-L_11_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_11",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_12_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_12",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_21_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_21",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_22_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_22",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_31_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_31",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_32_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_32",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_41_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_41",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_42_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_42",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_11_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_11",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_12_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_12",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_21_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_21",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_22_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_22",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_31_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_31",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_32_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_32",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_41_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_41",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, {
+                "name": "LX-Knee-Ligament-LCL-L_42_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_42",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aACL-L_1_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-L_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-L_1",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aACL-L_2_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-L_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-L_2",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pACL-L_1_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-L_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-L_1",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pACL-L_2_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-L_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-L_2",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aPCL-L_1_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-L_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-L_1",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aPCL-L_2_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-L_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-L_2",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pPCL-L_1_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-L_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-L_1",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pPCL-L_2_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-L_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-L_2",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_11_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_11",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_12_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_12",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_21_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_21",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_22_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_22",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_31_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_31",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_32_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_32",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_41_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_41",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_42_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_42",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_11_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_11",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_12_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_12",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_21_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_21",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_22_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_22",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_31_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_31",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_32_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_32",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_41_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_41",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_42_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_42",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_11_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_11",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_12_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_12",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_21_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_21",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_22_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_22",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_31_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_31",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_32_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_32",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_41_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_41",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_42_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_42",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aACL-R_1_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-R_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-R_1",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aACL-R_2_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-R_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-R_2",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pACL-R_1_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-R_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-R_1",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pACL-R_2_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-R_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-R_2",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aPCL-R_1_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-R_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-R_1",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aPCL-R_2_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-R_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-R_2",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pPCL-R_1_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-R_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-R_1",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pPCL-R_2_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-R_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-R_2",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_11_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_11",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_12_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_12",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_21_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_21",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_22_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_22",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_31_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_31",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_32_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_32",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_41_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_41",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_42_dx",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_42",
+                    "array": ["(0, x_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_11_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_11",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_12_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_12",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_21_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_21",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_22_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_22",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_31_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_31",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_32_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_32",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_41_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_41",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_42_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_42",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_11_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_11",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_12_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_12",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_21_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_21",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_22_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_22",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_31_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_31",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_32_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_32",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_41_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_41",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_42_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_42",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aACL-L_1_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-L_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-L_1",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aACL-L_2_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-L_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-L_2",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pACL-L_1_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-L_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-L_1",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pACL-L_2_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-L_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-L_2",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aPCL-L_1_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-L_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-L_1",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aPCL-L_2_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-L_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-L_2",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pPCL-L_1_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-L_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-L_1",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pPCL-L_2_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-L_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-L_2",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_11_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_11",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_12_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_12",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_21_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_21",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_22_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_22",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_31_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_31",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_32_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_32",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_41_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_41",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_42_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_42",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_11_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_11",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_12_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_12",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_21_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_21",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_22_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_22",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_31_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_31",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_32_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_32",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_41_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_41",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_42_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_42",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_11_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_11",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_12_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_12",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_21_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_21",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_22_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_22",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_31_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_31",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_32_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_32",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_41_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_41",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_42_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_42",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aACL-R_1_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-R_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-R_1",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aACL-R_2_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-R_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-R_2",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pACL-R_1_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-R_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-R_1",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pACL-R_2_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-R_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-R_2",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aPCL-R_1_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-R_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-R_1",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aPCL-R_2_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-R_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-R_2",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pPCL-R_1_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-R_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-R_1",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pPCL-R_2_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-R_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-R_2",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_11_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_11",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_12_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_12",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_21_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_21",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_22_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_22",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_31_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_31",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_32_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_32",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_41_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_41",
+                    "array": ["(0, y_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_42_dy",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_42",
+                    "array": ["(0, y_coordinate)"]
+                }
+            },      
+            {
+                "name": "LX-Knee-Ligament-MCL-L_11_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_11",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_12_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_12",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_21_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_21",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_22_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_22",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_31_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_31",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_32_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_32",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_41_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_41",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-L_42_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-L_42",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_11_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_11",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_12_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_12",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_21_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_21",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_22_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_22",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_31_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_31",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_32_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_32",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_41_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_41",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-L_42_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-L_42",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aACL-L_1_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-L_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-L_1",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aACL-L_2_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-L_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-L_2",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pACL-L_1_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-L_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-L_1",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pACL-L_2_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-L_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-L_2",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aPCL-L_1_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-L_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-L_1",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aPCL-L_2_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-L_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-L_2",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pPCL-L_1_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-L_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-L_1",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pPCL-L_2_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-L_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-L_2",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_11_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_11",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_12_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_12",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_21_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_21",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_22_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_22",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_31_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_31",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_32_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_32",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_41_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_41",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-L_42_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-L_42",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_11_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_11",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_12_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_12",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_21_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_21",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_22_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_22",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_31_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_31",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_32_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_32",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_41_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_41",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-MCL-R_42_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-MCL-R_42",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_11_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_11",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_12_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_12",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_21_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_21",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_22_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_22",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_31_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_31",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_32_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_32",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_41_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_41",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-LCL-R_42_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-LCL-R_42",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aACL-R_1_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-R_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-R_1",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aACL-R_2_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-R_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aACL-R_2",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pACL-R_1_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-R_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-R_1",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pACL-R_2_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-R_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pACL-R_2",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aPCL-R_1_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-R_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-R_1",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-aPCL-R_2_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-R_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-aPCL-R_2",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pPCL-R_1_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-R_1",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-R_1",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-pPCL-R_2_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-R_2",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-pPCL-R_2",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_11_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_11",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_11",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_12_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_12",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_12",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_21_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_21",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_21",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_22_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_22",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_22",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_31_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_31",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_31",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_32_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_32",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_32",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_41_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_41",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_41",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }, 
+            {
+                "name": "LX-Knee-Ligament-PL-R_42_dz",
+                "part_of": "KNEE",
+                "x": {
+                    "label": "time",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_42",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "coordinate",
+                    "type": "NODE",
+                    "ID": "LX-Knee-Ligament-PL-R_42",
+                    "array": ["(0, z_coordinate)"]
+                }
+            }        
+
+		]
+	}
+
+]

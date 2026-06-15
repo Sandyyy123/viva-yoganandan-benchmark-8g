@@ -527,6 +527,23 @@ full 300&nbsp;ms solve is ~3.5 days on a 12-core workstation but a few hours on 
 full solve and the result extraction belong on Rescale. The <code>_verification/</code> folder in the repo holds the starter
 <code>-check</code> listings for both <code>latest-20260120</code> and <code>latest-20260520</code>.</div>
 
+<div class="note"><b>Fresh-clone re-test of this repo (2026-06-15), following the README single-domain steps.</b>
+The published repo was cloned from scratch (<code>git clone</code>) and run exactly per the instructions above, to confirm
+the single-domain path solves the same model that crashed under multi-domain MPI:
+<ul>
+<li><b>Starter</b> (<code>-np 1</code>): <b class="ok">0 errors, 203 warnings</b>, 1.16&nbsp;GB restart written - matches the
+32-domain starter result reported on Rescale (0 errors, 205 warnings; the small warning delta is just the partition count
+reporting).</li>
+<li><b>Engine</b> (single domain, OpenMP, 12 threads): initialized clean and <b class="ok">time-stepped to cycle 100</b>
+(t&nbsp;=&nbsp;0.030&nbsp;s of 0.300&nbsp;s), <b class="ok">energy error 0.0%</b>, timestep steady at 3.0e-4&nbsp;ms, writing a
+real growing <code>00_mainT01</code> time-history (16&nbsp;MB and counting). <b class="ok">No segmentation fault.</b></li>
+</ul>
+This is the direct contrast with the failing run: the multi-domain IntelMPI engine aborted at initialization on ranks 7 and 9
+with only a 322&nbsp;KB header-only T01; the single-domain OpenMP path on the same cloned deck runs clean and produces real
+time-history. The burst was stopped on purpose after cycle 100 (a full 300&nbsp;ms solve is days on 12 cores, hours on a
+Rescale node). Toolchain note: this re-test used the gfortran build (the only one available locally); it validates the deck
+and the single-domain workflow, which the command block maps onto your Intel <code>_ifx</code> binaries.</div>
+
 <p class="mut">Repo is private; you already have collaborator access (GitHub user <b>the client</b>). To regenerate with a
 different muscle set / %MVC / T_start, edit the activation config and re-run <code>key_muscle_editor.py</code> in global mode
 (one command).</p>

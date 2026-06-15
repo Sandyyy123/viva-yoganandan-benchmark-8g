@@ -81,6 +81,22 @@ Starter `-check` listings for both `latest-20260120` and `latest-20260520` are i
 hours on a Rescale 32-64-core node, so the full solve and result extraction belong on
 Rescale.
 
+### Fresh-clone re-test (2026-06-15), following the single-domain steps above
+This repo was cloned from scratch and run exactly per the instructions, to confirm the
+single-domain path solves the same model that crashed under multi-domain MPI:
+- **Starter (`-np 1`):** 0 errors, 203 warnings, 1.16 GB restart (matches the 32-domain
+  Rescale starter result; the warning delta is just partition-count reporting).
+- **Engine (single domain, OpenMP, 12 threads):** initialized clean and time-stepped to
+  cycle 100 (t = 0.030 s of 0.300 s), energy error 0.0%, timestep steady at 3.0e-4 ms,
+  real growing `00_mainT01` (16 MB). No segmentation fault.
+
+Direct contrast with the failing run: the multi-domain IntelMPI engine aborted at init on
+ranks 7 and 9 with a 322 KB header-only T01; the single-domain OpenMP path on the same
+cloned deck runs clean. Burst stopped on purpose after cycle 100 (full solve = days on 12
+cores, hours on Rescale). The re-test used the gfortran build (only one available locally);
+it validates the deck + the single-domain workflow, which the commands map onto the Intel
+`_ifx` binaries.
+
 ## Parameters baked in
 - SCM + Trapezius bilateral, 50% MVC, onset T_start = 0 ms (2% baseline held to t=0,
   ramp to 50% by t=5 ms, held to 300 ms). 10 muscle parts activated; all other muscles

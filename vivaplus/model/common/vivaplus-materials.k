@@ -1219,7 +1219,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_NULL_TITLE
 UX-Shoulder_Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
-    305109     1.E-6        0.        0.        0.        0.     0.001       0.3
+    305109     1.E-3        0.        0.        0.        0.     0.001       0.3
 *MAT_RIGID_TITLE
 UX-Bone-Carpal
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|

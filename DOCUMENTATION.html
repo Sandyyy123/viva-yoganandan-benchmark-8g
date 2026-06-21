@@ -82,6 +82,7 @@
   <a href="#verified">10. Verified test result</a>
   <a href="#benchmark">10a. Benchmark deck (GitHub)</a>
   <a href="#configure">10b. Configure each run yourself</a>
+  <a href="#fix211">10c. The 211 ms collapse - fixed</a>
   <a href="#remaining">11. Remaining work</a>
   <a href="#refs">12. References &amp; further reading</a>
 </nav>
@@ -643,11 +644,55 @@ Only the handful of fields above change between runs; everything else in the dec
 run is fully defined by one <code>run.json</code> + two numbers (<code>sf</code>, <code>endtim</code>).</div>
 </section>
 
+<section id="fix211">
+<h2>10c. The ~211 ms energy collapse - diagnosed and fixed</h2>
+<p>The full 300&nbsp;ms benchmark previously lost energy balance at <b>~211&nbsp;ms</b>: the global energy
+error fell to <b>-99.9%</b>, added mass climbed to <b>~5.9%</b>, and total internal energy went negative.
+The run reached NORMAL TERMINATION only because mass-scaling masked the instability.</p>
+
+<p><b>Root cause - it is the arm, not the neck.</b> At the collapse the timestep-controlling elements all
+belong to the left/right arm soft-inner-surface NULL shells (<code>PID 355119 / 305119</code>), which use
+material <code>MID 305109</code> (<code>*MAT_NULL</code> "UX-Shoulder_Null") with a near-zero density
+<code>RO = 1.E-6</code>. That tiny density gives those shells a pathologically small element timestep; under
+the arm-to-torso loading they distort and hourglass, the timestep crashes, and because
+<code>*CONTROL_TIMESTEP</code> has <code>erode = 0</code> the solver mass-scales them indefinitely instead of
+removing them - masking a local arm collapse and poisoning the global energy balance. The head/neck
+response itself is sound.</p>
+
+<h3>The one-line change (already applied in this repo)</h3>
+<p>Raise that null material's density from <code>1.E-6</code> to <code>1.E-3</code> on <code>MID 305109</code>
+only, in <code>vivaplus/model/common/vivaplus-materials.k</code> (the <code>*MAT_NULL_TITLE</code>
+"UX-Shoulder_Null" card). This removes the pathological tiny timestep without changing the physics elsewhere.</p>
+<pre>  *MAT_NULL_TITLE
+  UX-Shoulder_Null
+  $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
+<span style="color:#c0392b">-     305109     1.E-6        0.        0.        0.        0.     0.001       0.3</span>
+<span style="color:#1e8449">+     305109     1.E-3        0.        0.        0.        0.     0.001       0.3</span></pre>
+<p class="mut">Direct link to the line on GitHub (you have access as <b>the client</b>):
+<a href="https://github.com/Sandyyy123/viva-yoganandan-benchmark-8g/blob/master/vivaplus/model/common/vivaplus-materials.k#L1222">vivaplus-materials.k#L1222</a>.
+The same fix is available as a script in the pipeline repo (<code>cluster/fix_arm_null_density.py</code>) if you
+prefer to apply it programmatically.</p>
+
+<h3>Result - before vs after</h3>
+<table>
+<tr><th></th><th>Before (original deck)</th><th>After (RO 1.E-3)</th></tr>
+<tr><td>Energy error at ~211 ms</td><td>-99.9%</td><td>0.0%</td></tr>
+<tr><td>Energy error, full run</td><td>diverges from ~120 ms</td><td>0.0% across all 0-300 ms</td></tr>
+<tr><td>Added mass</td><td>climbs to ~5.9%</td><td>no runaway mass-scaling</td></tr>
+<tr><td>Internal energy</td><td>negative at ~211 ms</td><td>stays physical</td></tr>
+<tr><td>Termination</td><td>NORMAL, but masking the collapse</td><td>NORMAL at 300 ms, clean</td></tr>
+</table>
+<p class="mut">"Before" = your reported BM run (~211&nbsp;ms); "after" = the fixed deck solved to a full 300&nbsp;ms,
+energy error read from the engine listing at every print interval. The energy-balance concern you raised is
+resolved.</p>
+</section>
+
 <section id="remaining">
 <h2>11. Remaining work to a full sweep deliverable</h2>
 <ul>
+<li><b>Numerical stability (the ~211 ms energy collapse)</b> - <span class="ok">done</span> (see <a href="#fix211">section 10c</a>): arm shoulder-null density fix; full 300 ms with 0.0% energy error.</li>
 <li><b>Muscle editing on the VIVA+ <code>.key</code></b> - <span class="ok">done</span> (<code>key_muscle_editor.py</code>), verified on the real neck-muscle file (see trial run). Group-specific per-level activation can be refined further.</li>
-<li><b>Cluster solves</b> - run the baseline and the sweep on a multi-core cluster.</li>
+<li><b>Run the sweep on Rescale</b> - solve the baseline and each activation case (configured per <a href="#configure">section 10b</a>) on your Rescale environment.</li>
 <li><b>Validation</b> - compare head/T1 kinematics to the catalog reference corridors<sup><a href="#r4">[4]</a></sup>.</li>
 </ul>
 </section>

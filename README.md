@@ -17,6 +17,7 @@ viva-yoganandan-benchmark-8g/
       6.8_50F/
         00_main.key                           <- STARTER input (run this)
         00_main_0001.rad                      <- ENGINE input (runs to 300 ms)
+        set_tfile.sh                          <- run after starter: throttles T01 size
         run_RearImpact_Yoganandan2000.k       <- crash pulse, 8 g, endtim 300 ms
       env/
         Outputs_for_Yoganandan2000_50F.k      <- T1 output fix
@@ -41,6 +42,11 @@ export PATH=/program/openradioss-20260120/OpenRadioss-latest-20260120/exec:$PATH
 
 # 3. Starter - SINGLE domain (-np 1): builds one restart, no domain split
 starter_linux64_ifx -i 00_main.key -np 1           # 0 errors -> writes 00_main_0000_0001.rst
+
+# 3b. Throttle the time-history output interval BEFORE the engine runs.
+#     The starter regenerates 00_main_0001.rad with /TFILE=0 (one record EVERY cycle
+#     -> a ~108 GB 00_mainT01 that th_to_csv cannot convert). 0.05 ms caps it to ~650 MB.
+bash set_tfile.sh 0.05                              # sets /TFILE to 0.05 ms in 00_main_0001.rad
 
 # 4. Engine - solve to 300 ms using N OpenMP threads on the single domain
 mpirun -np 1 engine_linux64_ifx_impi -i 00_main_0001.rad -nt N   # writes 00_mainT01 + 00_mainA001

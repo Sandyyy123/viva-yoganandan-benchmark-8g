@@ -36,6 +36,7 @@ Neither fix touches the neck, the muscles, the belt, the seat, or the contacts.
 source /opt/openradioss/env.sh            # sets OPENRADIOSS_PATH, RAD_CFG_PATH, LD_LIBRARY_PATH, PATH
 cd catalog/Yoganandan-2000-Rear/dyna/6.8_50F
 starter_linux64_gf -i 00_main.key -np <N> # builds restart (.rst) + engine file _0001.rad
+bash set_tfile.sh 0.05                    # throttle T01: starter writes /TFILE=0 (108 GB); 0.05 ms -> ~650 MB
 mpirun -np <N> engine_linux64_gf_ompi -i 00_main_0001.rad   # solves; writes 00_mainT01
 ```
 A full 600 ms solve is a **cluster job**: ~1.1e6 s single-process here; budget hours

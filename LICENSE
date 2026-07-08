@@ -1,0 +1,34 @@
+PROPRIETARY LICENSE - ALL RIGHTS RESERVED (Author-Created Materials)
+
+Copyright (c) 2026 Sandeep Grover. All Rights Reserved.
+
+SCOPE. This proprietary license applies to the materials in this repository that
+were authored by the copyright holder, including but not limited to: the
+parametric pipeline scripts, the muscle-activation and crash-scaling editors, the
+post-processing and reporting scripts, the run/handover scripts, the deck-patch
+and configuration files, and all accompanying documentation authored by the
+copyright holder (collectively, the "Author-Created Materials").
+
+NO LICENSE OR RIGHT OF USE IS GRANTED for the Author-Created Materials. No part
+of them may be used, executed, run, copied, reproduced, modified, adapted,
+merged, published, displayed, distributed, transmitted, sublicensed, sold, or
+otherwise exploited, in whole or in part, by any person or entity, for any
+purpose, without the prior express written permission of the copyright holder.
+Possession of, or access to, these materials does not confer any license or
+right to use them. Unauthorized use is strictly prohibited and may result in
+civil and criminal liability. All rights not expressly granted in writing are
+reserved.
+
+THIRD-PARTY / UPSTREAM MATERIALS. This repository also redistributes the VIVA+
+human body model and the VIVA+ Validation Catalog (Yoganandan-2000 rear-sled
+setup), which are the property of their respective owners and are licensed under
+their own open-source terms (GNU LGPL-3.0 and Apache-2.0). Those upstream files
+remain governed SOLELY by those upstream licenses and NOT by this proprietary
+license. See NOTICE.md and VIVAPLUS_LICENSE.md. Nothing in this file grants,
+restricts, waives, or modifies any rights in the upstream materials.
+
+THE AUTHOR-CREATED MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM OR IN CONNECTION WITH THEM.
+
+For licensing inquiries, contact: grover.sandeep@gmail.com

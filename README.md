@@ -1,3 +1,5 @@
+> Copyright (c) 2026 Sandeep Grover. All Rights Reserved. The author-created pipeline scripts and documentation are proprietary (no use without written permission - see LICENSE). Bundled VIVA+/OpenRadioss files remain under their upstream open-source licenses (see NOTICE.md, VIVAPLUS_LICENSE.md).
+
 # VIVA+ benchmark - complete ready-to-run deck
 
 SCM + Trapezius, 50% MVC, T_start 0 ms, 8 g, 300 ms.

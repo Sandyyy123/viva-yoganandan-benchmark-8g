@@ -1,34 +1,29 @@
-PROPRIETARY LICENSE - ALL RIGHTS RESERVED (Author-Created Materials)
+Proprietary Software License
 
 Copyright (c) 2026 Sandeep Grover. All Rights Reserved.
 
-SCOPE. This proprietary license applies to the materials in this repository that
-were authored by the copyright holder, including but not limited to: the
-parametric pipeline scripts, the muscle-activation and crash-scaling editors, the
-post-processing and reporting scripts, the run/handover scripts, the deck-patch
-and configuration files, and all accompanying documentation authored by the
-copyright holder (collectively, the "Author-Created Materials").
+This repository and all of its contents (source code, scripts, data, models, and
+documentation; collectively, the "Software") are the proprietary and confidential
+property of Sandeep Grover ("the Owner") and are protected by copyright and other
+intellectual-property laws. The Software is licensed, not sold, and all rights are
+reserved by the Owner.
 
-NO LICENSE OR RIGHT OF USE IS GRANTED for the Author-Created Materials. No part
-of them may be used, executed, run, copied, reproduced, modified, adapted,
-merged, published, displayed, distributed, transmitted, sublicensed, sold, or
-otherwise exploited, in whole or in part, by any person or entity, for any
-purpose, without the prior express written permission of the copyright holder.
-Possession of, or access to, these materials does not confer any license or
-right to use them. Unauthorized use is strictly prohibited and may result in
-civil and criminal liability. All rights not expressly granted in writing are
-reserved.
+NO LICENSE OR PERMISSION is granted, by implication, estoppel, or otherwise, to any
+person or entity to use, run, execute, copy, reproduce, download, store, modify,
+adapt, translate, merge, publish, distribute, transmit, sublicense, sell, host, use
+for training or evaluation of machine-learning models, or create derivative works
+from the Software, in whole or in part, by any means, without the prior express
+written permission of the Owner.
 
-THIRD-PARTY / UPSTREAM MATERIALS. This repository also redistributes the VIVA+
-human body model and the VIVA+ Validation Catalog (Yoganandan-2000 rear-sled
-setup), which are the property of their respective owners and are licensed under
-their own open-source terms (GNU LGPL-3.0 and Apache-2.0). Those upstream files
-remain governed SOLELY by those upstream licenses and NOT by this proprietary
-license. See NOTICE.md and VIVAPLUS_LICENSE.md. Nothing in this file grants,
-restricts, waives, or modifies any rights in the upstream materials.
+Making this repository publicly viewable does NOT grant any license to its contents.
+Accessing or viewing the Software transfers no right, title, or interest in it. Any
+unauthorized use, reproduction, or distribution is strictly prohibited and may result
+in civil and criminal liability.
 
-THE AUTHOR-CREATED MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY
-CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM OR IN CONNECTION WITH THEM.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING WITHOUT LIMITATION THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE OWNER BE LIABLE FOR
+ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM OR IN CONNECTION WITH THE
+SOFTWARE OR ITS USE.
 
-For licensing inquiries, contact: grover.sandeep@gmail.com
+For licensing inquiries, contact the Owner via https://github.com/Sandyyy123

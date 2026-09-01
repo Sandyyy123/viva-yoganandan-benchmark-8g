@@ -1,3 +1,7 @@
+> **⚠️ Proprietary — All Rights Reserved.** © 2026 Sandeep Grover. This repository is licensed to Sandeep Grover and may **not** be used, run, copied, modified, distributed, or used to train models without prior written permission. Public visibility does not grant a license. See [LICENSE](LICENSE).
+
+---
+
 > Copyright (c) 2026 Sandeep Grover. All Rights Reserved. The author-created pipeline scripts and documentation are proprietary (no use without written permission - see LICENSE). Bundled VIVA+/OpenRadioss files remain under their upstream open-source licenses (see NOTICE.md, VIVAPLUS_LICENSE.md).
 
 # VIVA+ benchmark - complete ready-to-run deck
